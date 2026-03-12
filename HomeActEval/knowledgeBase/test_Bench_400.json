@@ -1,0 +1,3602 @@
+[
+  {
+    "id": "E001",
+    "category": "Anomaly Detection",
+    "time": "Tuesday 10:15",
+    "location": "bathroom",
+    "event": "User slipped and fell, remaining stationary on the floor.",
+    "proactive": true,
+    "reason": "Safety hazard: Potential injury detected via pose estimation."
+  },
+  {
+    "id": "E002",
+    "category": "Rule Violation",
+    "time": "Friday 09:30",
+    "location": "bedroom",
+    "event": "User is still sleeping in bed.",
+    "proactive": true,
+    "reason": "Task Deadline: Plants must be watered before 10:00, deadline is imminent (Rule R012)."
+  },
+  {
+    "id": "E003",
+    "category": "Rule Violation",
+    "time": "Wednesday 19:00",
+    "location": "kitchen",
+    "event": "User left the kitchen while the stove fire is still on.",
+    "proactive": true,
+    "reason": "Safety hazard: High risk of fire (Rule R010 violation)."
+  },
+  {
+    "id": "E004",
+    "category": "Anomaly Detection",
+    "time": "Thursday 03:00",
+    "location": "living room",
+    "event": "User is performing vigorous exercise and making loud noises.",
+    "proactive": true,
+    "reason": "Anomaly: Abnormal behavior for this hour; potential mental health concern or disturbance."
+  },
+  {
+    "id": "E005",
+    "category": "Anomaly Detection",
+    "time": "Monday 14:00",
+    "location": "entrance",
+    "event": "Main door has been left open for more than 10 minutes.",
+    "proactive": true,
+    "reason": "Security risk: Unexpected breach of home perimeter."
+  },
+  {
+    "id": "E006",
+    "category": "Anomaly Detection",
+    "time": "Saturday 11:00",
+    "location": "living room",
+    "event": "User is standing on a ladder/chair to reach a high shelf.",
+    "proactive": true,
+    "reason": "Safety hazard: Risk of falling from height."
+  },
+  {
+    "id": "E007",
+    "category": "Habit Deviation",
+    "time": "Tuesday 07:20",
+    "location": "bedroom",
+    "event": "User has not gotten out of bed (past usual wake-up time).",
+    "proactive": true,
+    "reason": "Habit deviation: Potential illness or oversleeping (Usual: 07:00-07:15 Wake up)."
+  },
+  {
+    "id": "E008",
+    "category": "Habit Deviation",
+    "time": "Wednesday 15:00",
+    "location": "study",
+    "event": "User has been sitting continuously for over 60 minutes without standing.",
+    "proactive": true,
+    "reason": "Health advice: Sedentary behavior exceeds threshold (Usual: Hourly break)."
+  },
+  {
+    "id": "E009",
+    "category": "Rule Violation",
+    "time": "Friday 11:00",
+    "location": "bedroom",
+    "event": "User is packing a bag to go out.",
+    "proactive": true,
+    "reason": "Task Deadline: User failed to water plants before the 10:00 cutoff (Rule R012)."
+  },
+  {
+    "id": "E010",
+    "category": "Habit Deviation",
+    "time": "Friday 08:50",
+    "location": "kitchen",
+    "event": "No breakfast preparation or eating activity detected yet.",
+    "proactive": true,
+    "reason": "Health concern: Risk of skipping meals (Usual: 08:30 Breakfast)."
+  },
+  {
+    "id": "E011",
+    "category": "Habit Deviation",
+    "time": "Thursday 22:50",
+    "location": "bedroom",
+    "event": "User went straight to bed without brushing teeth/washing face.",
+    "proactive": true,
+    "reason": "Hygiene habit deviation: User missed nightly routine (Usual: 22:30 Hygiene)."
+  },
+  {
+    "id": "E012",
+    "category": "Habit Deviation",
+    "time": "Sunday 09:00",
+    "location": "bedroom",
+    "event": "User has not performed the habitual blood pressure measurement.",
+    "proactive": true,
+    "reason": "Habit deviation: Missed specific weekly health routine (Usual: Sun 08:30 BP Check)."
+  },
+  {
+    "id": "E013",
+    "category": "Habit Deviation",
+    "time": "Monday 08:30",
+    "location": "living room",
+    "event": "User finished breakfast but has not taken medication.",
+    "proactive": true,
+    "reason": "Health adherence: Missed medication time (Usual: 08:45 Medicine)."
+  },
+  {
+    "id": "E014",
+    "category": "Habit Deviation",
+    "time": "Wednesday 16:00",
+    "location": "study",
+    "event": "User has been working for 2 hours continuously without a break.",
+    "proactive": true,
+    "reason": "Health advice: Need to stretch/move to prevent fatigue."
+  },
+  {
+    "id": "E015",
+    "category": "Habit Deviation",
+    "time": "Thursday 09:45",
+    "location": "study",
+    "event": "User is typing on the keyboard and yawning, without having gone to the kitchen for coffee.",
+    "proactive": true,
+    "reason": "Habit deviation: User missed the daily morning coffee routine (Usual: 09:00), potentially affecting productivity."
+  },
+  {
+    "id": "E016",
+    "category": "Rule Violation",
+    "time": "Thursday 16:30",
+    "location": "kitchen",
+    "event": "User is operating the coffee machine to brew the 4th cup of the day.",
+    "proactive": true,
+    "reason": "Rule violation: Exceeds the daily limit of 3 cups of coffee (Rule R002)."
+  },
+  {
+    "id": "E017",
+    "category": "Habit Deviation",
+    "time": "Tuesday 11:00",
+    "location": "study",
+    "event": "User has been using the computer for over 2 hours.",
+    "proactive": true,
+    "reason": "Health advice: Eye strain prevention."
+  },
+  {
+    "id": "E018",
+    "category": "World Knowledge",
+    "time": "Tuesday 11:50",
+    "location": "living room",
+    "event": "User left a fruit knife on the living room floor after opening a package.",
+    "proactive": true,
+    "reason": "Critical Safety: Imminent risk of injury to children/pets (World Knowledge)."
+  },
+  {
+    "id": "E019",
+    "category": "Rule Violation",
+    "time": "Wednesday 12:15",
+    "location": "living_room_sofa_area",
+    "event": "User is eating lunch on the sofa.",
+    "proactive": true,
+    "reason": "Rule violation: Eating on the sofa is explicitly forbidden (Rule R004)."
+  },
+  {
+    "id": "E020",
+    "category": "Habit Deviation",
+    "time": "Thursday 13:00",
+    "location": "study",
+    "event": "User is still typing on the computer and has not prepared lunch.",
+    "proactive": true,
+    "reason": "Health concern: User missed the daily lunch window (Usual: 12:00-12:45), risk of skipping meals."
+  },
+  {
+    "id": "E021",
+    "category": "Habit Deviation",
+    "time": "Wednesday 13:15",
+    "location": "living room",
+    "event": "User is still scrolling through news on the tablet.",
+    "proactive": true,
+    "reason": "Schedule adherence: Activity is encroaching on the scheduled afternoon nap time (Usual: 13:00 Nap)."
+  },
+  {
+    "id": "E022",
+    "category": "Rule Violation",
+    "time": "Thursday 23:45",
+    "location": "bedroom",
+    "event": "User is lying in bed using a smartphone.",
+    "proactive": true,
+    "reason": "Sleep hygiene: Screen time interferes with sleep schedule (Rule R006)."
+  },
+  {
+    "id": "E023",
+    "category": "Rule Violation",
+    "time": "Wednesday 12:15",
+    "location": "kitchen",
+    "event": "User is eating lunch at the dining table while scrolling through videos on a smartphone.",
+    "proactive": true,
+    "reason": "Rule violation: Electronic devices are forbidden at the dining table while eating (Rule R008)."
+  },
+  {
+    "id": "E024",
+    "category": "Habit Deviation",
+    "time": "Thursday 08:05",
+    "location": "bedroom",
+    "event": "User is still browsing the iPad (checking news).",
+    "proactive": true,
+    "reason": "Habit deviation: User missed the start of the daily meditation routine (Usual: 08:00)."
+  },
+  {
+    "id": "E025",
+    "category": "Habit Deviation",
+    "time": "Monday 10:10",
+    "location": "living room",
+    "event": "User is not in the study for the scheduled weekly video conference.",
+    "proactive": true,
+    "reason": "Habit deviation: User is missing a recurring work event (Usual: Mon 10:00 Conference)."
+  },
+  {
+    "id": "E026",
+    "category": "Habit Deviation",
+    "time": "Friday 17:00",
+    "location": "living room",
+    "event": "User has not started drafting the daily summary.",
+    "proactive": true,
+    "reason": "Habit deviation: Missed daily productivity ritual (Usual: 16:00 Drafting)."
+  },
+  {
+    "id": "E027",
+    "category": "Habit Deviation",
+    "time": "Saturday 20:30",
+    "location": "living room",
+    "event": "User has not initiated the weekly family video call.",
+    "proactive": true,
+    "reason": "Habit deviation: Missed weekly connection routine (Usual: Sat 20:00 Call)."
+  },
+  {
+    "id": "E028",
+    "category": "Habit Deviation",
+    "time": "Saturday 02:00",
+    "location": "study",
+    "event": "User is still playing games.",
+    "proactive": true,
+    "reason": "Habit deviation: Activity exceeds even the flexible weekend limit."
+  },
+  {
+    "id": "E029",
+    "category": "Habit Deviation",
+    "time": "Tuesday 19:30",
+    "location": "entrance",
+    "event": "User returned from dog walking but left trash bag at the door.",
+    "proactive": true,
+    "reason": "Task completion: Failed to dispose of trash (Usual: 19:00 Trash)."
+  },
+  {
+    "id": "E030",
+    "category": "Habit Deviation",
+    "time": "Wednesday 22:30",
+    "location": "balcony",
+    "event": "Laundry cycle finished long ago, but user hasn't hung clothes.",
+    "proactive": true,
+    "reason": "Task completion: Wet clothes risk smelling (Usual: Wed 21:10 Laundry)."
+  },
+  {
+    "id": "E031",
+    "category": "Habit Deviation",
+    "time": "Thursday 13:00",
+    "location": "kitchen",
+    "event": "Dirty dishes have been in the sink for over 2 hours.",
+    "proactive": true,
+    "reason": "Hygiene rule: Violation of cleanliness standard."
+  },
+  {
+    "id": "E032",
+    "category": "Habit Deviation",
+    "time": "Friday 10:00",
+    "location": "balcony",
+    "event": "User has not watered the plants yet.",
+    "proactive": true,
+    "reason": "Habit deviation/Mandatory task: Missed deadline (Usual: Fri 08:40 Watering)."
+  },
+  {
+    "id": "E033",
+    "category": "Habit Deviation",
+    "time": "Tuesday 13:50",
+    "location": "living room",
+    "event": "User is still sleeping on the sofa (past the 13:40 wake-up time).",
+    "proactive": true,
+    "reason": "Schedule adherence: Oversleeping risks interfering with the 14:00 Deep Work session."
+  },
+  {
+    "id": "E034",
+    "category": "Rule Violation",
+    "time": "Thursday 12:50",
+    "location": "living_room_sofa_area",
+    "event": "User is eating potato chips on the sofa while browsing the tablet.",
+    "proactive": true,
+    "reason": "Rule violation: Snacking on the sofa is explicitly forbidden (Rule R004)."
+  },
+  {
+    "id": "E035",
+    "category": "Habit Deviation",
+    "time": "Saturday 12:00",
+    "location": "living room",
+    "event": "Full house cleaning has not been performed.",
+    "proactive": true,
+    "reason": "Habit deviation/Mandatory task: Missed deadline (Usual: Sat 10:00 Cleaning)."
+  },
+  {
+    "id": "E036",
+    "category": "World Knowledge",
+    "time": "Wednesday 13:15",
+    "location": "living room",
+    "event": "User is sleeping without a blanket while room temperature dropped below 18°C.",
+    "proactive": true,
+    "reason": "Environment logic: Sleeping body temperature drops; risk of catching a cold."
+  },
+  {
+    "id": "E037",
+    "category": "Habit Deviation",
+    "time": "Sunday 21:40",
+    "location": "balcony",
+    "event": "Weekly laundry has not been done.",
+    "proactive": true,
+    "reason": "Habit deviation/Mandatory task: Missed deadline (Usual: Sun 21:10 Laundry)."
+  },
+  {
+    "id": "E038",
+    "category": "Habit Deviation",
+    "time": "Tuesday 08:30",
+    "location": "entrance",
+    "event": "Recyclable waste bins are still inside.",
+    "proactive": true,
+    "reason": "Habit deviation: Missed trash pickup window (Usual: Tue 08:15 Bins)."
+  },
+  {
+    "id": "E039",
+    "category": "Habit Deviation",
+    "time": "Tuesday 17:35",
+    "location": "living room",
+    "event": "User entered home 5 minutes ago and has not washed hands.",
+    "proactive": true,
+    "reason": "Habit deviation: Violation of 'wash hands upon entry' routine."
+  },
+  {
+    "id": "E040",
+    "category": "Rule Violation",
+    "time": "Friday 10:15",
+    "location": "living room",
+    "event": "User is watching the morning news on TV.",
+    "proactive": true,
+    "reason": "Task Deadline: The deadline (Friday 10:00) for watering plants has passed (Rule R012)."
+  },
+  {
+    "id": "E041",
+    "category": "Rule Violation",
+    "time": "Thursday 13:05",
+    "location": "living room",
+    "event": "User has fallen asleep on the sofa, but the kitchen stove is still detected as 'ON'.",
+    "proactive": true,
+    "reason": "Critical Safety: Fire hazard due to unattended stove (Violates Rule R010)."
+  },
+  {
+    "id": "E042",
+    "category": "Habit Deviation",
+    "time": "Tuesday 07:26",
+    "location": "bedroom",
+    "event": "User walks out of the bedroom heading to the bathroom without having touched the iPad.",
+    "proactive": true,
+    "reason": "Habit deviation: User missed the daily morning schedule/weather check routine (Usual: 07:15)."
+  },
+  {
+    "id": "E043",
+    "category": "Habit Deviation",
+    "time": "Wednesday 15:10",
+    "location": "study",
+    "event": "User has been sitting still at the desk for over 70 minutes without taking a break.",
+    "proactive": true,
+    "reason": "Health advice: Sedentary behavior exceeds threshold (Triggers conditional routine: Hourly Stretching/Eye exercises)."
+  },
+  {
+    "id": "E044",
+    "category": "Habit Deviation",
+    "time": "Wednesday 08:10",
+    "location": "bathroom",
+    "event": "User is still in the bathroom grooming (past the usual end time of 08:00).",
+    "proactive": true,
+    "reason": "Schedule adherence: Current activity is delaying the next habitual event (08:00 Meditation)."
+  },
+  {
+    "id": "E045",
+    "category": "Rule Violation",
+    "time": "Thursday 14:30",
+    "location": "study",
+    "event": "User is eating biscuits at the desk while reading documents.",
+    "proactive": true,
+    "reason": "Rule violation: Eating in the study is strictly forbidden (Rule R007)."
+  },
+  {
+    "id": "E046",
+    "category": "Normal Events",
+    "time": "Tuesday 08:00",
+    "location": "living room",
+    "event": "User is meditating.",
+    "proactive": false,
+    "reason": "Normal Events: Aligns with daily schedule."
+  },
+  {
+    "id": "E047",
+    "category": "Normal Events",
+    "time": "Friday 23:00",
+    "location": "study",
+    "event": "User is playing PC games.",
+    "proactive": false,
+    "reason": "Habit suppression: Friday night gaming is a known exception to sleep rules."
+  },
+  {
+    "id": "E048",
+    "category": "Habit Deviation",
+    "time": "Monday 14:20",
+    "location": "living room",
+    "event": "User is still watching TV/napping, missing the start of the Deep Work block.",
+    "proactive": true,
+    "reason": "Schedule adherence: User is significantly delaying the critical 14:00-16:00 productivity window."
+  },
+  {
+    "id": "E049",
+    "category": "Normal Events",
+    "time": "Monday 20:00",
+    "location": "study",
+    "event": "User is working with only the desk lamp on (ceiling light off).",
+    "proactive": false,
+    "reason": "Personal preference: Recognized lighting habit for focus."
+  },
+  {
+    "id": "E050",
+    "category": "Habit Deviation",
+    "time": "Tuesday 16:20",
+    "location": "living room",
+    "event": "User is lounging on the sofa scrolling through social media, missing the daily planning session.",
+    "proactive": true,
+    "reason": "Habit deviation: User is skipping the critical daily summary routine (Usual: 16:00), impacting research progress."
+  },
+  {
+    "id": "E051",
+    "category": "Normal Events",
+    "time": "Sunday 15:30",
+    "location": "dining room",
+    "event": "User is working on a laptop while having tea.",
+    "proactive": false,
+    "reason": "Personal preference: Flexible workspace usage."
+  },
+  {
+    "id": "E052",
+    "category": "Normal Events",
+    "time": "Wednesday 02:00",
+    "location": "kitchen",
+    "event": "User enters kitchen to drink water.",
+    "proactive": false,
+    "reason": "Biological need: Recognized erratic but normal behavior."
+  },
+  {
+    "id": "E053",
+    "category": "Rule Violation",
+    "time": "Friday 16:10",
+    "location": "study",
+    "event": "User is eating a sandwich while typing the daily summary.",
+    "proactive": true,
+    "reason": "Rule violation: Eating in the study is strictly forbidden (Rule R007)."
+  },
+  {
+    "id": "E054",
+    "category": "Normal Events",
+    "time": "Thursday 21:00",
+    "location": "study",
+    "event": "User turned off ceiling light and kept desk lamp on.",
+    "proactive": false,
+    "reason": "Personal preference: Lighting habit."
+  },
+  {
+    "id": "E055",
+    "category": "Normal Events",
+    "time": "Friday 03:00",
+    "location": "bathroom",
+    "event": "User is using the toilet.",
+    "proactive": false,
+    "reason": "Biological need: Normal physiological event."
+  },
+  {
+    "id": "E056",
+    "category": "World Knowledge",
+    "time": "Sunday 14:15",
+    "location": "balcony",
+    "event": "It started raining outside while clothes are hanging on the rack.",
+    "proactive": true,
+    "reason": "Environment logic: Rain will ruin dry clothes."
+  },
+  {
+    "id": "E057",
+    "category": "Anomaly Detection",
+    "time": "Wednesday 18:25",
+    "location": "living room",
+    "event": "User collapsed on the floor after jumping and has remained motionless for 30 seconds.",
+    "proactive": true,
+    "reason": "Critical Safety: Potential cardiac event or injury detected via pose estimation."
+  },
+  {
+    "id": "E058",
+    "category": "Habit Deviation",
+    "time": "Wednesday 16:50",
+    "location": "study",
+    "event": "User is still intensely working at the desk, skipping the scheduled break/snack.",
+    "proactive": true,
+    "reason": "Health advice: User missed the afternoon break window (Usual: 16:40 Snack/Stretch), increasing fatigue."
+  },
+  {
+    "id": "E059",
+    "category": "Rule Violation",
+    "time": "Friday 16:45",
+    "location": "living_room_sofa_area",
+    "event": "User is sitting on the sofa eating an apple.",
+    "proactive": true,
+    "reason": "Rule violation: Snacking on the sofa is explicitly forbidden (Rule R004)."
+  },
+  {
+    "id": "E060",
+    "category": "Anomaly Detection",
+    "time": "Wednesday 19:20",
+    "location": "entrance",
+    "event": "User has left for the dog walk, but the main door smart lock is not engaged.",
+    "proactive": true,
+    "reason": "Security risk: Perimeter breach detected during user absence."
+  },
+  {
+    "id": "E061",
+    "category": "Rule Violation",
+    "time": "Wednesday 18:45",
+    "location": "living room",
+    "event": "User is chatting on the phone in the living room while the kitchen stove is active (absent > 30s).",
+    "proactive": true,
+    "reason": "Critical Safety: Fire hazard; violates Rule R010 (Human presence required when stove is on)."
+  },
+  {
+    "id": "E062",
+    "category": "Habit Deviation",
+    "time": "Thursday 19:30",
+    "location": "living room",
+    "event": "User is still watching TV.",
+    "proactive": true,
+    "reason": "Schedule adherence: Delay impacts pet welfare (dog needs exercise/relief)."
+  },
+  {
+    "id": "E063",
+    "category": "World Knowledge",
+    "time": "Monday 16:00",
+    "location": "living room",
+    "event": "Room temperature is below 18°C and user is wearing short sleeves.",
+    "proactive": true,
+    "reason": "Environment logic: Risk of catching a cold."
+  },
+  {
+    "id": "E064",
+    "category": "World Knowledge",
+    "time": "Friday 20:15",
+    "location": "balcony",
+    "event": "User filled the food bowl and left, but the water bowl is detected as empty/dry.",
+    "proactive": true,
+    "reason": "Health logic: Pets require fresh water with meals; incomplete care routine detected."
+  },
+  {
+    "id": "E065",
+    "category": "World Knowledge",
+    "time": "Thursday 18:45",
+    "location": "kitchen",
+    "event": "Smoke density is high while user is cooking.",
+    "proactive": true,
+    "reason": "Safety hazard: Need ventilation to prevent alarm/health issues."
+  },
+  {
+    "id": "E066",
+    "category": "Habit Deviation",
+    "time": "Tuesday 18:15",
+    "location": "study",
+    "event": "User is still sedentary at the desk.",
+    "proactive": true,
+    "reason": "Health advice: Consistent exercise is key; user is at risk of breaking the daily habit streak."
+  },
+  {
+    "id": "E067",
+    "category": "Habit Deviation",
+    "time": "Tuesday 20:30",
+    "location": "living room",
+    "event": "User is watching TV, and the dog's food bowl is detected as empty.",
+    "proactive": true,
+    "reason": "Task completion: Animal welfare concern; user missed the daily feeding schedule."
+  },
+  {
+    "id": "E068",
+    "category": "World Knowledge",
+    "time": "Tuesday 18:55",
+    "location": "living room",
+    "event": "Heavy rain is detected outside just before the scheduled outdoor routine.",
+    "proactive": true,
+    "reason": "Environment logic: Suggest taking an umbrella/raincoat or delaying the walk."
+  },
+  {
+    "id": "E069",
+    "category": "Habit Deviation",
+    "time": "Tuesday 08:40",
+    "location": "study",
+    "event": "User started working early, skipping the 08:30 breakfast routine.",
+    "proactive": true,
+    "reason": "Health concern: Skipping breakfast affects morning cognitive performance."
+  },
+  {
+    "id": "E070",
+    "category": "World Knowledge",
+    "time": "Thursday 20:40",
+    "location": "kitchen",
+    "event": "User is using a metal fork to try and get toast out of a plugged-in toaster.",
+    "proactive": true,
+    "reason": "Critical Safety: High risk of electric shock (World Knowledge)."
+  },
+  {
+    "id": "E071",
+    "category": "World Knowledge",
+    "time": "Saturday 09:30",
+    "location": "bathroom",
+    "event": "User is cleaning the bathroom with bleach and has closed the door and window completely.",
+    "proactive": true,
+    "reason": "Safety hazard: Toxic fume accumulation (chloroform/chlorine); requires immediate ventilation."
+  },
+  {
+    "id": "E072",
+    "category": "Habit Deviation",
+    "time": "Saturday 16:35",
+    "location": "living room",
+    "event": "User is watching sports on TV.",
+    "proactive": true,
+    "reason": "Schedule adherence: Missed the 16:30 weekly piano session."
+  },
+  {
+    "id": "E073",
+    "category": "Rule Violation",
+    "time": "Friday 16:50",
+    "location": "living_room_sofa_area",
+    "event": "User is eating a bowl of grapes while sitting on the sofa.",
+    "proactive": true,
+    "reason": "Rule violation: Fruit snacks are permitted but NOT on the sofa (Rule R004)."
+  },
+  {
+    "id": "E074",
+    "category": "World Knowledge",
+    "time": "Wednesday 10:00",
+    "location": "all rooms",
+    "event": "The AQI (Air Quality Index) outside is over 200, but all windows are wide open.",
+    "proactive": true,
+    "reason": "Environment logic: Poor outdoor air quality; suggest closing windows and turning on the purifier."
+  },
+  {
+    "id": "E075",
+    "category": "Rule Violation",
+    "time": "Tuesday 23:10",
+    "location": "bedroom",
+    "event": "User is wearing a VR headset in bed.",
+    "proactive": true,
+    "reason": "Rule violation: High-intensity electronic device usage after 23:00 (Rule R006)."
+  },
+  {
+    "id": "E076",
+    "category": "World Knowledge",
+    "time": "Monday 11:30",
+    "location": "kitchen",
+    "event": "User is defrosting meat on the counter in direct sunlight for several hours.",
+    "proactive": true,
+    "reason": "Health logic: Improper food thawing increases bacterial growth; suggest refrigeration."
+  },
+  {
+    "id": "E077",
+    "category": "Rule Violation",
+    "time": "Wednesday 20:05",
+    "location": "bedroom",
+    "event": "User enters the bedroom carrying a full dog food bowl.",
+    "proactive": true,
+    "reason": "Rule violation: Feeding pets in the bedroom is strictly forbidden (Rule R003)."
+  },
+  {
+    "id": "E078",
+    "category": "Rule Violation",
+    "time": "Wednesday 20:35",
+    "location": "kitchen",
+    "event": "User is detected brewing coffee.",
+    "proactive": true,
+    "reason": "Rule violation: Coffee is strictly forbidden after 20:00 (Rule R001)."
+  },
+  {
+    "id": "E079",
+    "category": "Rule Violation",
+    "time": "Friday 20:45",
+    "location": "living room",
+    "event": "User is watching TV, while the kettle in the kitchen has been boiling for >5 minutes (unattended).",
+    "proactive": true,
+    "reason": "Critical Safety: Fire/Scald hazard; violates stove attendance rule (Rule R010)."
+  },
+  {
+    "id": "E080",
+    "category": "World Knowledge",
+    "time": "Wednesday 08:10",
+    "location": "entrance",
+    "event": "User is putting on shoes and holding keys (preparing to leave).",
+    "proactive": true,
+    "reason": "Departure logic: Trigger 'Leaving Home' checklist (water, gas, pet food)."
+  },
+  {
+    "id": "E081",
+    "category": "World Knowledge",
+    "time": "Tuesday 21:45",
+    "location": "study",
+    "event": "User is reading a physical book with only the dim hallway light on (desk lamp off).",
+    "proactive": true,
+    "reason": "Environment logic: Insufficient lighting during night study causes eye strain; suggest turning on the lamp."
+  },
+  {
+    "id": "E082",
+    "category": "Rule Violation",
+    "time": "Wednesday 22:00",
+    "location": "study",
+    "event": "User is eating a late-night snack (chips) while studying.",
+    "proactive": true,
+    "reason": "Rule violation: Eating in the study is strictly forbidden (Rule R007)."
+  },
+  {
+    "id": "E083",
+    "category": "Rule Violation",
+    "time": "Thursday 22:35",
+    "location": "bathroom",
+    "event": "User entered the bathroom with a smartphone and is scrolling while flossing.",
+    "proactive": true,
+    "reason": "Rule violation: Electronic devices are forbidden in the bathroom (Rule R005)."
+  },
+  {
+    "id": "E084",
+    "category": "World Knowledge",
+    "time": "Tuesday 22:55",
+    "location": "bedroom",
+    "event": "User plugged in the phone but placed it under the pillow to charge.",
+    "proactive": true,
+    "reason": "Critical Safety: Fire hazard due to battery overheating; suggest placing on nightstand."
+  },
+  {
+    "id": "E085",
+    "category": "Rule Violation",
+    "time": "Saturday 17:00",
+    "location": "kitchen",
+    "event": "User is cooking a snack.",
+    "proactive": true,
+    "reason": "Schedule Adherence: User is absent from the living room during mandatory piano time (Rule R014)."
+  },
+  {
+    "id": "E086",
+    "category": "World Knowledge",
+    "time": "Friday 22:42",
+    "location": "bathroom",
+    "event": "User is brushing teeth, but the faucet has been running continuously for >60 seconds.",
+    "proactive": true,
+    "reason": "Resource logic: Water waste detected; suggest turning off the tap while brushing."
+  },
+  {
+    "id": "E087",
+    "category": "Rule Violation",
+    "time": "Wednesday 23:05",
+    "location": "bedroom",
+    "event": "User is actively using the smartphone in bed.",
+    "proactive": true,
+    "reason": "Rule violation: Electronic devices are forbidden after 23:00 (Rule R006 overrides Habit)."
+  },
+  {
+    "id": "E088",
+    "category": "Habit Deviation",
+    "time": "Monday 22:50",
+    "location": "bedroom",
+    "event": "User went straight from the study to the bed, skipping the bathroom routine entirely.",
+    "proactive": true,
+    "reason": "Habit deviation: User missed the critical nightly hygiene routine (Skincare/Brushing)."
+  },
+  {
+    "id": "E089",
+    "category": "World Knowledge",
+    "time": "Monday 10:30",
+    "location": "study",
+    "event": "Doorbell rings while user is working.",
+    "proactive": true,
+    "reason": "Notification: User might miss the visitor due to focus/headphones."
+  },
+  {
+    "id": "E090",
+    "category": "Habit Deviation",
+    "time": "Thursday 23:45",
+    "location": "living room",
+    "event": "User is still awake and active, missing the strict sleep start time (Usual: 23:30).",
+    "proactive": true,
+    "reason": "Schedule adherence: Sleep deprivation risk; enforced bedtime is 23:30."
+  },
+  {
+    "id": "E091",
+    "category": "World Knowledge",
+    "time": "Monday 21:30",
+    "location": "kitchen",
+    "event": "User is starting to brew tea.",
+    "proactive": true,
+    "reason": "Health logic: Drinking fluids late at night may disrupt sleep."
+  },
+  {
+    "id": "E092",
+    "category": "Habit Deviation",
+    "time": "Sunday 23:40",
+    "location": "bedroom",
+    "event": "User is detected as asleep, but no alarm is set for Monday morning.",
+    "proactive": true,
+    "reason": "Task logic: Risk of oversleeping on a workday; Agent should ask or auto-set alarm."
+  },
+  {
+    "id": "E093",
+    "category": "World Knowledge",
+    "time": "Tuesday 12:00",
+    "location": "study",
+    "event": "Direct sunlight is hitting the screen; user is squinting.",
+    "proactive": true,
+    "reason": "Environment logic: Glare affects comfort and vision."
+  },
+  {
+    "id": "E094",
+    "category": "Habit Deviation",
+    "time": "Monday 10:05",
+    "location": "living room",
+    "event": "User is still browsing the news on the tablet, missing the start of the weekly video conference.",
+    "proactive": true,
+    "reason": "Schedule adherence: User is late for a scheduled professional commitment (Usual: Mon 10:00 Meeting)."
+  },
+  {
+    "id": "E095",
+    "category": "World Knowledge",
+    "time": "Monday 09:55",
+    "location": "kitchen",
+    "event": "User is using a loud blender/grinder just 5 minutes before the video conference starts.",
+    "proactive": true,
+    "reason": "Context awareness: High noise levels usually disrupt upcoming professional meetings; suggest pausing."
+  },
+  {
+    "id": "E096",
+    "category": "World Knowledge",
+    "time": "Monday 18:05",
+    "location": "living room",
+    "event": "User is performing the daily workout (jumping jacks) during the scheduled Blood Pressure check window.",
+    "proactive": true,
+    "reason": "Medical logic: Blood pressure must be measured at a resting state. Exercise invalidates the reading (Conflict between Daily Workout and Monday Health Check)."
+  },
+  {
+    "id": "E097",
+    "category": "Habit Deviation",
+    "time": "Monday 18:50",
+    "location": "study",
+    "event": "User is still working.",
+    "proactive": true,
+    "reason": "Health adherence: User is at risk of skipping the weekly physiological monitoring (Usual: Mon 18:00)."
+  },
+  {
+    "id": "E098",
+    "category": "Habit Deviation",
+    "time": "Thursday 17:50",
+    "location": "living room",
+    "event": "User is watching TV, neglecting the document organization routine.",
+    "proactive": true,
+    "reason": "Task completion: Bi-weekly organization routine missed;"
+  },
+  {
+    "id": "E099",
+    "category": "Habit Deviation",
+    "time": "Thursday 19:45",
+    "location": "study",
+    "event": "User is still engrossed in deep work, missing the start of the scheduled yoga session.",
+    "proactive": true,
+    "reason": "Schedule adherence: User is neglecting the bi-weekly flexibility/relaxation routine (Usual: 19:30 Yoga)."
+  },
+  {
+    "id": "E100",
+    "category": "World Knowledge",
+    "time": "Sunday 21:10",
+    "location": "balcony",
+    "event": "It starts raining heavily as the laundry cycle begins on the balcony.",
+    "proactive": true,
+    "reason": "Environment logic: Rain will dampen the area and make hanging clothes difficult/messy; suggest using a dryer mode if available."
+  },
+  {
+    "id": "E101",
+    "category": "Habit Deviation",
+    "time": "Wednesday 21:35",
+    "location": "bedroom",
+    "event": "User is setting up mobile charging, but no laundry activity was detected earlier.",
+    "proactive": true,
+    "reason": "Task completion: User missed the bi-weekly laundry routine (Usual: Wed 21:10); risk of piling up dirty clothes."
+  },
+  {
+    "id": "E102",
+    "category": "World Knowledge",
+    "time": "Saturday 11:00",
+    "location": "kitchen",
+    "event": "Toddler is reaching for a knife on the counter.",
+    "proactive": true,
+    "reason": "Critical Safety: Imminent risk of severe injury."
+  },
+  {
+    "id": "E103",
+    "category": "Habit Deviation",
+    "time": "Friday 08:55",
+    "location": "study",
+    "event": "User has started working at the computer.",
+    "proactive": true,
+    "reason": "Task completion: Friday watering routine missed; risk of plant dehydration in upcoming dry weekend."
+  },
+  {
+    "id": "E104",
+    "category": "Habit Deviation",
+    "time": "Friday 16:15",
+    "location": "living room",
+    "event": "User is lounging on the sofa.",
+    "proactive": true,
+    "reason": "Schedule adherence: Friday afternoon communication is critical for closing out the work week."
+  },
+  {
+    "id": "E105",
+    "category": "Rule Violation",
+    "time": "Friday 16:30",
+    "location": "study",
+    "event": "User is eating a sandwich while typing replies to weekly emails.",
+    "proactive": true,
+    "reason": "Rule violation: Eating in the study is strictly forbidden (Rule R007)."
+  },
+  {
+    "id": "E106",
+    "category": "Rule Violation",
+    "time": "Saturday 16:50",
+    "location": "study",
+    "event": "User is reading a comic book at the desk.",
+    "proactive": true,
+    "reason": "Schedule Adherence: Current activity conflicts with the piano practice schedule (Rule R014)."
+  },
+  {
+    "id": "E107",
+    "category": "Habit Deviation",
+    "time": "Friday 22:40",
+    "location": "living room",
+    "event": "User is still engrossed in a movie in the living room.",
+    "proactive": true,
+    "reason": "Task logic: Detected a schedule overlap between two leisure activities; Agent should ask if the user wants to adjust the plan."
+  },
+  {
+    "id": "E108",
+    "category": "Rule Violation",
+    "time": "Friday 23:05",
+    "location": "study",
+    "event": "User is actively playing a PC game past the 23:00 cutoff.",
+    "proactive": true,
+    "reason": "Rule violation: Electronic devices are strictly forbidden after 23:00 (Rule R006 overrides Habit)."
+  },
+  {
+    "id": "E109",
+    "category": "Rule Violation",
+    "time": "Saturday 23:00",
+    "location": "study",
+    "event": "User is eating snacks while gaming in the study.",
+    "proactive": true,
+    "reason": "Rule violation: Eating in the study is strictly forbidden (Rule R007)."
+  },
+  {
+    "id": "E110",
+    "category": "World Knowledge",
+    "time": "Saturday 10:30",
+    "location": "kitchen",
+    "event": "User is seen mixing two different chemical cleaners (e.g., bleach and an acid-based cleaner) while cleaning.",
+    "proactive": true,
+    "reason": "Critical Safety: Chemical reaction risk (toxic gas); World Knowledge requires immediate intervention."
+  },
+  {
+    "id": "E111",
+    "category": "World Knowledge",
+    "time": "Saturday 10:45",
+    "location": "living room",
+    "event": "The floor is very wet after mopping, and the user is walking toward the area while looking at their phone.",
+    "proactive": true,
+    "reason": "Safety logic: High risk of slipping and falling; Agent should warn the user about the wet floor."
+  },
+  {
+    "id": "E112",
+    "category": "Habit Deviation",
+    "time": "Saturday 11:40",
+    "location": "living room",
+    "event": "Cleaning time has ended, but the bathroom remains untouched and cluttered.",
+    "proactive": true,
+    "reason": "Task logic: The 'house cleaning' routine was incomplete; suggest finishing the remaining area."
+  },
+  {
+    "id": "E113",
+    "category": "World Knowledge",
+    "time": "Saturday 16:45",
+    "location": "living room",
+    "event": "User placed a glass of water/herbal tea on top of the piano while practicing.",
+    "proactive": true,
+    "reason": "Asset protection: High risk of permanent damage to the instrument from liquid spills (World Knowledge)."
+  },
+  {
+    "id": "E114",
+    "category": "Habit Deviation",
+    "time": "Saturday 17:20",
+    "location": "living room",
+    "event": "User has been playing piano for 50 minutes without a break, showing signs of wrist tension.",
+    "proactive": true,
+    "reason": "Health advice: Repetitive strain injury (RSI) prevention; suggest a short stretching break."
+  },
+  {
+    "id": "E115",
+    "category": "World Knowledge",
+    "time": "Saturday 19:50",
+    "location": "living room",
+    "event": "The tablet used for family calls is detected with only 8% battery, 10 minutes before the scheduled call.",
+    "proactive": true,
+    "reason": "Task logic: Pre-emptive action to prevent the hour-long family call from being interrupted by a dead battery."
+  },
+  {
+    "id": "E116",
+    "category": "Rule Violation",
+    "time": "Saturday 23:01",
+    "location": "living room",
+    "event": "The video call with family has run late and is still active past 23:00.",
+    "proactive": true,
+    "reason": "Rule violation: Electronic devices are strictly forbidden after 23:00 (Rule R006 overrides social activity)."
+  },
+  {
+    "id": "E117",
+    "category": "World Knowledge",
+    "time": "Saturday 22:45",
+    "location": "living room",
+    "event": "The music volume is detected at 85dB in a quiet neighborhood.",
+    "proactive": true,
+    "reason": "Social logic: Preventing noise complaints during rest hours; suggest lowering volume as midnight approaches."
+  },
+  {
+    "id": "E118",
+    "category": "World Knowledge",
+    "time": "Sunday 08:32",
+    "location": "bedroom",
+    "event": "User has just finished a quick set of push-ups and immediately starts the blood pressure measurement.",
+    "proactive": true,
+    "reason": "Medical logic: Physical exertion spikes blood pressure; suggest resting for 5 minutes for an accurate reading."
+  },
+  {
+    "id": "E119",
+    "category": "Rule Violation",
+    "time": "Sunday 08:25",
+    "location": "bedroom",
+    "event": "User is drinking a cup of strong coffee just before the scheduled blood pressure check.",
+    "proactive": true,
+    "reason": "Medical logic/Rule violation: Caffeine affects blood pressure accuracy (Rule R001/R002 context)."
+  },
+  {
+    "id": "E120",
+    "category": "Rule Violation",
+    "time": "Saturday 23:05",
+    "location": "living room",
+    "event": "The vinyl player/sound system is still active and music is playing.",
+    "proactive": true,
+    "reason": "Rule violation: Electronic devices and entertainment systems are strictly forbidden after 23:00 (Rule R006 overrides Habit)."
+  },
+  {
+    "id": "E121",
+    "category": "World Knowledge",
+    "time": "Saturday 17:35",
+    "location": "living room",
+    "event": "The piano practice is running over time (past 17:30) and the volume is excessively loud during typical neighbor rest hours.",
+    "proactive": true,
+    "reason": "Social logic: Preventing noise complaints and maintaining habit boundaries."
+  },
+  {
+    "id": "E122",
+    "category": "World Knowledge",
+    "time": "Sunday 13:30",
+    "location": "garage",
+    "event": "User is preparing the car wash kit, but the weather forecast predicts a 90% chance of rain in 3 hours.",
+    "proactive": true,
+    "reason": "Efficiency logic: Manual car washing is labor-intensive; performing it before rain is unproductive. Suggest rescheduling."
+  },
+  {
+    "id": "E123",
+    "category": "World Knowledge",
+    "time": "Sunday 14:15",
+    "location": "garage",
+    "event": "The garage floor is covered in soapy water, and the user is walking around in smooth-soled flip-flops.",
+    "proactive": true,
+    "reason": "Critical Safety: High slip-and-fall risk on wet concrete surfaces; suggest wearing high-traction boots."
+  },
+  {
+    "id": "E124",
+    "category": "Habit Deviation",
+    "time": "Saturday 21:10 (Feb 28)",
+    "location": "living room",
+    "event": "It is the last day of the month, but the user is watching TV.",
+    "proactive": true,
+    "reason": "Task completion: Rare monthly task (Photo Backup) is easily forgotten; proactive nudge required to ensure data safety."
+  },
+  {
+    "id": "E125",
+    "category": "World Knowledge",
+    "time": "Sunday 14:55",
+    "location": "study",
+    "event": "User enters the study to start budgeting while still wearing damp, dirty clothes from the car wash.",
+    "proactive": true,
+    "reason": "Hygiene logic: Transitioning from outdoor manual labor to a clean indoor workstation; suggest showering/changing to protect study furniture."
+  },
+  {
+    "id": "E126",
+    "category": "Habit Deviation",
+    "time": "Wednesday 15:15",
+    "location": "study",
+    "event": "User has been in a 'Forward Head' posture (slouching) for over 60 minutes during deep work.",
+    "proactive": true,
+    "reason": "Condition triggered: Pose estimation detects poor ergonomics; enforces the 'Hourly Stretching' conditional routine."
+  },
+  {
+    "id": "E127",
+    "category": "Rule Violation",
+    "time": "Saturday 17:20",
+    "location": "living room",
+    "event": "User is sitting on the sofa watching TV (piano is untouched).",
+    "proactive": true,
+    "reason": "Schedule Adherence: Piano practice session is nearly over but user is engaging in leisure (Rule R014)."
+  },
+  {
+    "id": "E128",
+    "category": "Anomaly Detection",
+    "time": "Wednesday 15:30",
+    "location": "study",
+    "event": "User is detected rubbing their eyes and squinting at the screen repeatedly.",
+    "proactive": true,
+    "reason": "Condition triggered: Behavioral cues of eye strain; enforces the 'Hourly Eye Exercises' routine immediately regardless of the timer."
+  },
+  {
+    "id": "E129",
+    "category": "Rule Violation",
+    "time": "Sunday 15:20",
+    "location": "study",
+    "event": "User is eating a snack while reviewing financial spreadsheets at the desk.",
+    "proactive": true,
+    "reason": "Rule violation: Eating in the study is strictly forbidden (Rule R007)."
+  },
+  {
+    "id": "E130",
+    "category": "World Knowledge",
+    "time": "Friday 17:40",
+    "location": "study",
+    "event": "User is using a dripping wet cloth to clean the keyboard while the computer is still powered on.",
+    "proactive": true,
+    "reason": "Critical Safety: Short-circuit and hardware damage risk; suggest using a dry/damp cloth or turning off power first."
+  },
+  {
+    "id": "E131",
+    "category": "World Knowledge",
+    "time": "Friday 02:00",
+    "location": "bedroom",
+    "event": "Room temperature dropped significantly due to an open window while user is sleeping.",
+    "proactive": true,
+    "reason": "Environment logic: Thermal comfort/health risk; suggest closing window or adjusting HVAC."
+  },
+  {
+    "id": "E132",
+    "category": "Habit Deviation",
+    "time": "Monday 19:46",
+    "location": "entrance",
+    "event": "User enters from walking the dog and heads straight to the kitchen to grab a snack without sanitizing hands.",
+    "proactive": true,
+    "reason": "Condition triggered: 'Walking the dog' parent action ended; user skipped the critical hand sanitization routine."
+  },
+  {
+    "id": "E133",
+    "category": "World Knowledge",
+    "time": "Tuesday 08:45",
+    "location": "living room",
+    "event": "User takes medication again within a short time interval.",
+    "proactive": true,
+    "reason": "Safety hazard: Risk of accidental overdose."
+  },
+  {
+    "id": "E134",
+    "category": "World Knowledge",
+    "time": "Friday 13:30",
+    "location": "kitchen",
+    "event": "Fridge door was left slightly open.",
+    "proactive": true,
+    "reason": "Resource logic: Food spoilage and energy waste."
+  },
+  {
+    "id": "E135",
+    "category": "World Knowledge",
+    "time": "Thursday 07:45",
+    "location": "bathroom",
+    "event": "Faucet is dripping after user left the room.",
+    "proactive": true,
+    "reason": "Resource logic: Water waste."
+  },
+  {
+    "id": "E136",
+    "category": "Normal Events",
+    "time": "Tuesday 12:15",
+    "location": "kitchen",
+    "event": "User is cooking noodles.",
+    "proactive": false,
+    "reason": "Normal Activity: Routine lunch preparation."
+  },
+  {
+    "id": "E137",
+    "category": "Normal Events",
+    "time": "Wednesday 10:00",
+    "location": "kitchen",
+    "event": "User is drinking water.",
+    "proactive": false,
+    "reason": "Normal Activity: Hydration."
+  },
+  {
+    "id": "E138",
+    "category": "Normal Events",
+    "time": "Friday 20:00",
+    "location": "living room",
+    "event": "User is watching TV.",
+    "proactive": false,
+    "reason": "Normal Activity: Leisure time."
+  },
+  {
+    "id": "E139",
+    "category": "Normal Events",
+    "time": "Monday 14:30",
+    "location": "study",
+    "event": "User is working on computer.",
+    "proactive": false,
+    "reason": "Normal Activity: Work schedule."
+  },
+  {
+    "id": "E140",
+    "category": "Normal Events",
+    "time": "Friday 08:50",
+    "location": "balcony",
+    "event": "User is watering plants.",
+    "proactive": false,
+    "reason": "Normal Activity: Routine chore execution."
+  },
+  {
+    "id": "E141",
+    "category": "Normal Events",
+    "time": "Thursday 01:00",
+    "location": "bedroom",
+    "event": "User is sleeping.",
+    "proactive": false,
+    "reason": "Normal Activity: Sleeping state."
+  },
+  {
+    "id": "E142",
+    "category": "Normal Events",
+    "time": "Monday 22:30",
+    "location": "bathroom",
+    "event": "User is taking a shower.",
+    "proactive": false,
+    "reason": "Normal Activity: Personal hygiene."
+  },
+  {
+    "id": "E143",
+    "category": "Normal Events",
+    "time": "Tuesday 07:35",
+    "location": "bathroom",
+    "event": "User is washing face and grooming.",
+    "proactive": false,
+    "reason": "Normal Activity: Morning routine."
+  },
+  {
+    "id": "E144",
+    "category": "Normal Events",
+    "time": "Wednesday 08:15",
+    "location": "living room",
+    "event": "User is meditating.",
+    "proactive": false,
+    "reason": "Normal Activity: Daily mindfulness habit."
+  },
+  {
+    "id": "E145",
+    "category": "Normal Events",
+    "time": "Thursday 08:40",
+    "location": "kitchen",
+    "event": "User is eating breakfast.",
+    "proactive": false,
+    "reason": "Normal Activity: Daily meal."
+  },
+  {
+    "id": "E146",
+    "category": "Normal Events",
+    "time": "Tuesday 08:50",
+    "location": "living room",
+    "event": "User is taking medication.",
+    "proactive": false,
+    "reason": "Normal Activity: Health adherence."
+  },
+  {
+    "id": "E147",
+    "category": "Normal Events",
+    "time": "Friday 15:30",
+    "location": "kitchen",
+    "event": "User is eating a snack.",
+    "proactive": false,
+    "reason": "Normal Activity: Afternoon break."
+  },
+  {
+    "id": "E148",
+    "category": "Normal Events",
+    "time": "Wednesday 16:00",
+    "location": "study",
+    "event": "User is reading a book.",
+    "proactive": false,
+    "reason": "Normal Activity: Study/Leisure."
+  },
+  {
+    "id": "E149",
+    "category": "Normal Events",
+    "time": "Sunday 10:35",
+    "location": "balcony",
+    "event": "User is sitting and sunbathing.",
+    "proactive": false,
+    "reason": "Normal Activity: Relaxation."
+  },
+  {
+    "id": "E150",
+    "category": "Normal Events",
+    "time": "Monday 23:15",
+    "location": "bedroom",
+    "event": "User is using smartphone (within limits).",
+    "proactive": false,
+    "reason": "Normal Activity: Pre-sleep leisure."
+  },
+  {
+    "id": "E151",
+    "category": "Normal Events",
+    "time": "Tuesday 22:45",
+    "location": "bathroom",
+    "event": "User is brushing teeth.",
+    "proactive": false,
+    "reason": "Normal Activity: Nightly hygiene."
+  },
+  {
+    "id": "E152",
+    "category": "Normal Events",
+    "time": "Thursday 22:00",
+    "location": "living room",
+    "event": "User is listening to music.",
+    "proactive": false,
+    "reason": "Normal Activity: Leisure."
+  },
+  {
+    "id": "E153",
+    "category": "Normal Events",
+    "time": "Monday 10:30",
+    "location": "study",
+    "event": "User is in a video meeting.",
+    "proactive": false,
+    "reason": "Normal Activity: Work."
+  },
+  {
+    "id": "E154",
+    "category": "Normal Events",
+    "time": "Wednesday 21:15",
+    "location": "balcony",
+    "event": "User is hanging laundry.",
+    "proactive": false,
+    "reason": "Normal Activity: Chore execution."
+  },
+  {
+    "id": "E155",
+    "category": "Normal Events",
+    "time": "Thursday 19:50",
+    "location": "bedroom",
+    "event": "User is changing clothes.",
+    "proactive": false,
+    "reason": "Normal Activity: Post-work routine."
+  },
+  {
+    "id": "E156",
+    "category": "Normal Events",
+    "time": "Tuesday 03:00",
+    "location": "bathroom",
+    "event": "User is using the toilet.",
+    "proactive": false,
+    "reason": "Normal Activity: Physiological need."
+  },
+  {
+    "id": "E157",
+    "category": "Normal Events",
+    "time": "Monday 17:20",
+    "location": "entrance",
+    "event": "User is washing hands.",
+    "proactive": false,
+    "reason": "Normal Activity: Entry hygiene."
+  },
+  {
+    "id": "E158",
+    "category": "Rule Violation",
+    "time": "Sunday 11:00",
+    "location": "kitchen",
+    "event": "User is already brewing a 4th cup of coffee despite it being morning.",
+    "proactive": true,
+    "reason": "Health limit: Daily coffee intake exceeds the maximum limit of 3 cups (Rule R002)."
+  },
+  {
+    "id": "E159",
+    "category": "Normal Events",
+    "time": "Friday 18:00",
+    "location": "living room",
+    "event": "User turns on the ceiling light.",
+    "proactive": false,
+    "reason": "Normal Activity: Environmental control."
+  },
+  {
+    "id": "E160",
+    "category": "Normal Events",
+    "time": "Saturday 10:15",
+    "location": "living room",
+    "event": "User is using the vacuum cleaner.",
+    "proactive": false,
+    "reason": "Normal Activity: Cleaning routine."
+  },
+  {
+    "id": "E161",
+    "category": "Normal Events",
+    "time": "Wednesday 21:10",
+    "location": "balcony",
+    "event": "User is operating the washing machine.",
+    "proactive": false,
+    "reason": "Normal Activity: Chore execution."
+  },
+  {
+    "id": "E162",
+    "category": "Normal Events",
+    "time": "Saturday 12:30",
+    "location": "kitchen",
+    "event": "User is heating food in the microwave.",
+    "proactive": false,
+    "reason": "Normal Activity: Meal preparation."
+  },
+  {
+    "id": "E163",
+    "category": "Normal Events",
+    "time": "Wednesday 16:45",
+    "location": "kitchen",
+    "event": "User is taking a drink from the fridge.",
+    "proactive": false,
+    "reason": "Normal Activity: Hydration."
+  },
+  {
+    "id": "E164",
+    "category": "Normal Events",
+    "time": "Tuesday 12:50",
+    "location": "living room",
+    "event": "User is watching news on TV.",
+    "proactive": false,
+    "reason": "Normal Activity: Information consumption."
+  },
+  {
+    "id": "E165",
+    "category": "Normal Events",
+    "time": "Friday 22:45",
+    "location": "study",
+    "event": "User is playing video games.",
+    "proactive": false,
+    "reason": "Normal Activity: Leisure."
+  },
+  {
+    "id": "E166",
+    "category": "Normal Events",
+    "time": "Tuesday 19:45",
+    "location": "bedroom",
+    "event": "User is practicing yoga.",
+    "proactive": false,
+    "reason": "Normal Activity: Exercise routine."
+  },
+  {
+    "id": "E167",
+    "category": "Normal Events",
+    "time": "Saturday 11:00",
+    "location": "living room",
+    "event": "User is moving a heavy box.",
+    "proactive": false,
+    "reason": "Normal Activity: Household task."
+  },
+  {
+    "id": "E168",
+    "category": "Normal Events",
+    "time": "Sunday 20:00",
+    "location": "bedroom",
+    "event": "User is packing a suitcase.",
+    "proactive": false,
+    "reason": "Normal Activity: Travel preparation."
+  },
+  {
+    "id": "E169",
+    "category": "Normal Events",
+    "time": "Tuesday 07:15",
+    "location": "bedroom",
+    "event": "User is making the bed.",
+    "proactive": false,
+    "reason": "Normal Activity: Morning chore."
+  },
+  {
+    "id": "E170",
+    "category": "Normal Events",
+    "time": "Wednesday 12:40",
+    "location": "kitchen",
+    "event": "User is wiping the dining table.",
+    "proactive": false,
+    "reason": "Normal Activity: Cleaning."
+  },
+  {
+    "id": "E171",
+    "category": "Normal Events",
+    "time": "Monday 15:00",
+    "location": "study",
+    "event": "User stands up, stretches for 2 minutes, and then sits back down to work.",
+    "proactive": false,
+    "reason": "Normal Activity: Adheres to the hourly stretching conditional routine."
+  },
+  {
+    "id": "E172",
+    "category": "Normal Events",
+    "time": "Thursday 13:30",
+    "location": "kitchen",
+    "event": "User is washing dishes.",
+    "proactive": false,
+    "reason": "Normal Activity: Cleaning."
+  },
+  {
+    "id": "E173",
+    "category": "Normal Events",
+    "time": "Saturday 11:00",
+    "location": "kitchen",
+    "event": "User is mopping the floor.",
+    "proactive": false,
+    "reason": "Normal Activity: Weekly cleaning."
+  },
+  {
+    "id": "E174",
+    "category": "Normal Events",
+    "time": "Monday 14:10",
+    "location": "study",
+    "event": "User is printing documents.",
+    "proactive": false,
+    "reason": "Normal Activity: Work."
+  },
+  {
+    "id": "E175",
+    "category": "Normal Events",
+    "time": "Sunday 14:00",
+    "location": "living room",
+    "event": "User is fixing a toaster.",
+    "proactive": false,
+    "reason": "Normal Activity: Appliance repair."
+  },
+  {
+    "id": "E176",
+    "category": "Normal Events",
+    "time": "Sunday 15:00",
+    "location": "study",
+    "event": "User is organizing the bookshelf.",
+    "proactive": false,
+    "reason": "Normal Activity: Organizing."
+  },
+  {
+    "id": "E177",
+    "category": "Normal Events",
+    "time": "Saturday 10:45",
+    "location": "kitchen",
+    "event": "User is cleaning out the fridge.",
+    "proactive": false,
+    "reason": "Normal Activity: Cleaning."
+  },
+  {
+    "id": "E178",
+    "category": "Normal Events",
+    "time": "Sunday 20:00",
+    "location": "bedroom",
+    "event": "User is organizing the wardrobe.",
+    "proactive": false,
+    "reason": "Normal Activity: Organizing."
+  },
+  {
+    "id": "E179",
+    "category": "Normal Events",
+    "time": "Monday 15:30",
+    "location": "living room",
+    "event": "User is tightening screws on a chair.",
+    "proactive": false,
+    "reason": "Normal Activity: Furniture repair."
+  },
+  {
+    "id": "E180",
+    "category": "Normal Events",
+    "time": "Thursday 21:00",
+    "location": "bathroom",
+    "event": "User is scrubbing the bathtub.",
+    "proactive": false,
+    "reason": "Normal Activity: Bathroom cleaning."
+  },
+  {
+    "id": "E181",
+    "category": "Normal Events",
+    "time": "Saturday 11:45",
+    "location": "garage",
+    "event": "User is sweeping the garage floor.",
+    "proactive": false,
+    "reason": "Normal Activity: Garage maintenance."
+  },
+  {
+    "id": "E182",
+    "category": "Normal Events",
+    "time": "Saturday 11:50",
+    "location": "outdoor",
+    "event": "User is raking leaves in the yard.",
+    "proactive": false,
+    "reason": "Normal Activity: Yard work."
+  },
+  {
+    "id": "E183",
+    "category": "Normal Events",
+    "time": "Saturday 11:40",
+    "location": "balcony",
+    "event": "User is organizing the toolbox.",
+    "proactive": false,
+    "reason": "Normal Activity: Organizing."
+  },
+  {
+    "id": "E184",
+    "category": "Normal Events",
+    "time": "Sunday 13:50",
+    "location": "garage",
+    "event": "User is vacuuming the car interior.",
+    "proactive": false,
+    "reason": "Normal Activity: Car maintenance."
+  },
+  {
+    "id": "E185",
+    "category": "Normal Events",
+    "time": "Tuesday 17:40",
+    "location": "study",
+    "event": "User is emptying their backpack.",
+    "proactive": false,
+    "reason": "Normal Activity: Unpacking."
+  },
+  {
+    "id": "E186",
+    "category": "Normal Events",
+    "time": "Friday 17:50",
+    "location": "study",
+    "event": "User is deleting files on desktop.",
+    "proactive": false,
+    "reason": "Normal Activity: Digital cleaning."
+  },
+  {
+    "id": "E187",
+    "category": "Normal Events",
+    "time": "Monday 17:00",
+    "location": "study",
+    "event": "User is tidying pens and papers.",
+    "proactive": false,
+    "reason": "Normal Activity: Desk organizing."
+  },
+  {
+    "id": "E188",
+    "category": "Normal Events",
+    "time": "Wednesday 21:00",
+    "location": "kitchen",
+    "event": "User is wiping kitchen counters.",
+    "proactive": false,
+    "reason": "Normal Activity: Kitchen cleaning."
+  },
+  {
+    "id": "E189",
+    "category": "Normal Events",
+    "time": "Saturday 10:30",
+    "location": "living room",
+    "event": "User is straightening cushions.",
+    "proactive": false,
+    "reason": "Normal Activity: Tidying."
+  },
+  {
+    "id": "E190",
+    "category": "Normal Events",
+    "time": "Saturday 10:50",
+    "location": "bedroom",
+    "event": "User is dusting the nightstand.",
+    "proactive": false,
+    "reason": "Normal Activity: Cleaning."
+  },
+  {
+    "id": "E191",
+    "category": "Normal Events",
+    "time": "Thursday 21:10",
+    "location": "bathroom",
+    "event": "User is organizing toiletries.",
+    "proactive": false,
+    "reason": "Normal Activity: Organizing."
+  },
+  {
+    "id": "E192",
+    "category": "Normal Events",
+    "time": "Saturday 11:35",
+    "location": "balcony",
+    "event": "User is sweeping the balcony floor.",
+    "proactive": false,
+    "reason": "Normal Activity: Cleaning."
+  },
+  {
+    "id": "E193",
+    "category": "Normal Events",
+    "time": "Sunday 14:00",
+    "location": "bedroom",
+    "event": "User is organizing the closet.",
+    "proactive": false,
+    "reason": "Normal Activity: Storage management."
+  },
+  {
+    "id": "E194",
+    "category": "Normal Events",
+    "time": "Tuesday 19:00",
+    "location": "living room",
+    "event": "User is playing with Lego bricks.",
+    "proactive": false,
+    "reason": "Normal Activity: Hobby."
+  },
+  {
+    "id": "E195",
+    "category": "Normal Events",
+    "time": "Thursday 19:00",
+    "location": "entrance",
+    "event": "User is assembling a shoe rack.",
+    "proactive": false,
+    "reason": "Normal Activity: Assembly."
+  },
+  {
+    "id": "E196",
+    "category": "Normal Events",
+    "time": "Monday 22:20",
+    "location": "bathroom",
+    "event": "User is washing hair.",
+    "proactive": false,
+    "reason": "Normal Activity: Hygiene."
+  },
+  {
+    "id": "E197",
+    "category": "Normal Events",
+    "time": "Tuesday 07:45",
+    "location": "bathroom",
+    "event": "User is applying makeup.",
+    "proactive": false,
+    "reason": "Normal Activity: Grooming."
+  },
+  {
+    "id": "E198",
+    "category": "Normal Events",
+    "time": "Tuesday 07:50",
+    "location": "bathroom",
+    "event": "User is shaving.",
+    "proactive": false,
+    "reason": "Normal Activity: Grooming."
+  },
+  {
+    "id": "E199",
+    "category": "Normal Events",
+    "time": "Sunday 16:00",
+    "location": "living room",
+    "event": "User is trimming nails.",
+    "proactive": false,
+    "reason": "Normal Activity: Personal care."
+  },
+  {
+    "id": "E200",
+    "category": "Normal Events",
+    "time": "Thursday 21:00",
+    "location": "living room",
+    "event": "User is massaging neck.",
+    "proactive": false,
+    "reason": "Normal Activity: Relaxation."
+  },
+  {
+    "id": "E201",
+    "category": "Normal Events",
+    "time": "Wednesday 21:30",
+    "location": "bedroom",
+    "event": "User is applying a face mask.",
+    "proactive": false,
+    "reason": "Normal Activity: Skincare."
+  },
+  {
+    "id": "E202",
+    "category": "Normal Events",
+    "time": "Tuesday 18:00",
+    "location": "living room",
+    "event": "User is doing jumping jacks.",
+    "proactive": false,
+    "reason": "Normal Activity: Exercise."
+  },
+  {
+    "id": "E203",
+    "category": "Normal Events",
+    "time": "Friday 08:55",
+    "location": "balcony",
+    "event": "User is planting seeds in a pot.",
+    "proactive": false,
+    "reason": "Normal Activity: Gardening."
+  },
+  {
+    "id": "E204",
+    "category": "Normal Events",
+    "time": "Wednesday 20:00",
+    "location": "balcony",
+    "event": "User is throwing a ball for the dog.",
+    "proactive": false,
+    "reason": "Normal Activity: Pet play."
+  },
+  {
+    "id": "E205",
+    "category": "Normal Events",
+    "time": "Sunday 10:15",
+    "location": "bedroom",
+    "event": "User is changing bed sheets.",
+    "proactive": false,
+    "reason": "Normal Activity: Weekly chore."
+  },
+  {
+    "id": "E206",
+    "category": "Normal Events",
+    "time": "Monday 13:10",
+    "location": "living room",
+    "event": "User is lying on the sofa resting.",
+    "proactive": false,
+    "reason": "Normal Activity: Napping."
+  },
+  {
+    "id": "E207",
+    "category": "Normal Events",
+    "time": "Wednesday 09:05",
+    "location": "kitchen",
+    "event": "User is operating the coffee machine.",
+    "proactive": false,
+    "reason": "Normal Activity: Coffee making."
+  },
+  {
+    "id": "E208",
+    "category": "Normal Events",
+    "time": "Monday 16:40",
+    "location": "kitchen",
+    "event": "User is washing an apple.",
+    "proactive": false,
+    "reason": "Normal Activity: Snack preparation."
+  },
+  {
+    "id": "E209",
+    "category": "Normal Events",
+    "time": "Wednesday 22:00",
+    "location": "living room",
+    "event": "User is folding laundry.",
+    "proactive": false,
+    "reason": "Normal Activity: Chore execution."
+  },
+  {
+    "id": "E210",
+    "category": "Normal Events",
+    "time": "Sunday 15:30",
+    "location": "living room",
+    "event": "User is solving a jigsaw puzzle.",
+    "proactive": false,
+    "reason": "Normal Activity: Hobby."
+  },
+  {
+    "id": "E211",
+    "category": "Rule Violation",
+    "time": "Saturday 16:40",
+    "location": "balcony",
+    "event": "User is chatting on the phone outside.",
+    "proactive": true,
+    "reason": "Schedule Adherence: User is not at the piano during the designated practice window (Rule R014)."
+  },
+  {
+    "id": "E212",
+    "category": "Normal Events",
+    "time": "Saturday 16:45",
+    "location": "living room",
+    "event": "User is playing the piano.",
+    "proactive": false,
+    "reason": "Normal Activity: Music practice."
+  },
+  {
+    "id": "E213",
+    "category": "Normal Events",
+    "time": "Monday 14:05",
+    "location": "study",
+    "event": "User is searching for a book on shelves.",
+    "proactive": false,
+    "reason": "Normal Activity: Work/Study."
+  },
+  {
+    "id": "E214",
+    "category": "Normal Events",
+    "time": "Friday 17:55",
+    "location": "study",
+    "event": "User is wiping the keyboard.",
+    "proactive": false,
+    "reason": "Normal Activity: Cleaning."
+  },
+  {
+    "id": "E215",
+    "category": "Normal Events",
+    "time": "Saturday 17:25",
+    "location": "entrance",
+    "event": "User is trying on sneakers.",
+    "proactive": false,
+    "reason": "Normal Activity: Dressing."
+  },
+  {
+    "id": "E216",
+    "category": "Normal Events",
+    "time": "Monday 21:05",
+    "location": "bedroom",
+    "event": "User is filling the humidifier.",
+    "proactive": false,
+    "reason": "Normal Activity: Maintenance."
+  },
+  {
+    "id": "E217",
+    "category": "Normal Events",
+    "time": "Tuesday 07:15",
+    "location": "bedroom",
+    "event": "User is opening the curtains.",
+    "proactive": false,
+    "reason": "Normal Activity: Morning routine."
+  },
+  {
+    "id": "E218",
+    "category": "Normal Events",
+    "time": "Tuesday 07:55",
+    "location": "bathroom",
+    "event": "User is using an electric shaver.",
+    "proactive": false,
+    "reason": "Normal Activity: Grooming."
+  },
+  {
+    "id": "E219",
+    "category": "Normal Events",
+    "time": "Tuesday 22:35",
+    "location": "bathroom",
+    "event": "User is flossing teeth.",
+    "proactive": false,
+    "reason": "Normal Activity: Dental hygiene."
+  },
+  {
+    "id": "E220",
+    "category": "Normal Events",
+    "time": "Thursday 18:20",
+    "location": "entrance",
+    "event": "User is cutting open a package.",
+    "proactive": false,
+    "reason": "Normal Activity: Unboxing."
+  },
+  {
+    "id": "E221",
+    "category": "Normal Events",
+    "time": "Thursday 21:00",
+    "location": "bathroom",
+    "event": "User is cleaning the mirror.",
+    "proactive": false,
+    "reason": "Normal Activity: Cleaning."
+  },
+  {
+    "id": "E222",
+    "category": "Normal Events",
+    "time": "Tuesday 18:15",
+    "location": "balcony",
+    "event": "User is doing push-ups.",
+    "proactive": false,
+    "reason": "Normal Activity: Exercise."
+  },
+  {
+    "id": "E223",
+    "category": "Normal Events",
+    "time": "Wednesday 09:15",
+    "location": "kitchen",
+    "event": "User is using a blender for juice.",
+    "proactive": false,
+    "reason": "Normal Activity: Food prep."
+  },
+  {
+    "id": "E224",
+    "category": "Normal Events",
+    "time": "Tuesday 21:45",
+    "location": "bedroom",
+    "event": "User is using a massage gun on leg.",
+    "proactive": false,
+    "reason": "Normal Activity: Relaxation."
+  },
+  {
+    "id": "E225",
+    "category": "Normal Events",
+    "time": "Monday 17:25",
+    "location": "entrance",
+    "event": "User is arranging shoes in the rack.",
+    "proactive": false,
+    "reason": "Normal Activity: Tidying."
+  },
+  {
+    "id": "E226",
+    "category": "Normal Events",
+    "time": "Tuesday 08:35",
+    "location": "kitchen",
+    "event": "User is toasting bread.",
+    "proactive": false,
+    "reason": "Normal Activity: Breakfast prep."
+  },
+  {
+    "id": "E227",
+    "category": "Normal Events",
+    "time": "Tuesday 16:42",
+    "location": "kitchen",
+    "event": "User is slicing an orange.",
+    "proactive": false,
+    "reason": "Normal Activity: Snack prep."
+  },
+  {
+    "id": "E228",
+    "category": "Normal Events",
+    "time": "Sunday 15:00",
+    "location": "study",
+    "event": "User is sketching on paper.",
+    "proactive": false,
+    "reason": "Normal Activity: Hobby."
+  },
+  {
+    "id": "E229",
+    "category": "Normal Events",
+    "time": "Monday 21:05",
+    "location": "bedroom",
+    "event": "User is refilling water tank for humidifier.",
+    "proactive": false,
+    "reason": "Normal Activity: Maintenance."
+  },
+  {
+    "id": "E230",
+    "category": "Normal Events",
+    "time": "Saturday 10:15",
+    "location": "living room",
+    "event": "User is vacuuming the rug.",
+    "proactive": false,
+    "reason": "Normal Activity: Cleaning."
+  },
+  {
+    "id": "E231",
+    "category": "Normal Events",
+    "time": "Sunday 13:50",
+    "location": "garage",
+    "event": "User is washing the car exterior.",
+    "proactive": false,
+    "reason": "Normal Activity: Weekly car wash."
+  },
+  {
+    "id": "E232",
+    "category": "Normal Events",
+    "time": "Tuesday 20:30",
+    "location": "kitchen",
+    "event": "User is boiling water for herbal tea.",
+    "proactive": false,
+    "reason": "Normal Activity: Aligns with nightly herbal tea habit."
+  },
+  {
+    "id": "E233",
+    "category": "Normal Events",
+    "time": "Wednesday 07:45",
+    "location": "bathroom",
+    "event": "User is cleaning their glasses at the sink.",
+    "proactive": false,
+    "reason": "Normal Activity: Morning grooming detail."
+  },
+  {
+    "id": "E234",
+    "category": "Rule Violation",
+    "time": "Thursday 12:10",
+    "location": "study",
+    "event": "User is eating a bowl of noodles at the desk while attending a meeting.",
+    "proactive": true,
+    "reason": "Rule violation: No food in the study (Rule R007), regardless of work intensity."
+  },
+  {
+    "id": "E235",
+    "category": "World Knowledge",
+    "time": "Friday 08:45",
+    "location": "balcony",
+    "event": "User is watering the succulents, which were already watered heavily yesterday.",
+    "proactive": true,
+    "reason": "Expert logic: Overwatering risk for specific plant types; suggest checking soil moisture."
+  },
+  {
+    "id": "E236",
+    "category": "Anomaly Detection",
+    "time": "Saturday 23:45",
+    "location": "kitchen",
+    "event": "User is trying to cook a steak while appearing visibly intoxicated/stumbling.",
+    "proactive": true,
+    "reason": "Critical Safety: High risk of fire or injury due to impaired coordination near heat sources."
+  },
+  {
+    "id": "E237",
+    "category": "Habit Deviation",
+    "time": "Sunday 15:15",
+    "location": "living room",
+    "event": "User is napping again on the sofa, having already napped from 13:00-13:40.",
+    "proactive": true,
+    "reason": "Health advice: Excessive daytime sleep may cause insomnia tonight; missed budgeting session."
+  },
+  {
+    "id": "E238",
+    "category": "Rule Violation",
+    "time": "Tuesday 22:55",
+    "location": "bedroom",
+    "event": "User is setting up a laptop on the bed to watch a movie.",
+    "proactive": true,
+    "reason": "Rule violation: Screen usage in bed near the 23:00 cutoff (Rule R006)."
+  },
+  {
+    "id": "E239",
+    "category": "Habit Deviation",
+    "time": "Wednesday 19:30",
+    "location": "entrance",
+    "event": "User is back from the walk, but the dog's leash is lying on the floor instead of the hook.",
+    "proactive": true,
+    "reason": "Task logic: Disorganized entrance; violates 'organizing entrance' conditional routine."
+  },
+  {
+    "id": "E240",
+    "category": "Rule Violation",
+    "time": "Wednesday 19:10",
+    "location": "study",
+    "event": "User ignores the initial timer and continues the gaming session started at 17:00.",
+    "proactive": true,
+    "reason": "Digital wellness: Gaming session duration (2 hours 10 mins) exceeds the 2-hour limit (Rule R009)."
+  },
+  {
+    "id": "E241",
+    "category": "World Knowledge",
+    "time": "Thursday 14:00",
+    "location": "study",
+    "event": "User is using a space heater under the desk, and a pile of papers just fell onto its heating element.",
+    "proactive": true,
+    "reason": "Critical Safety: Immediate fire hazard detected."
+  },
+  {
+    "id": "E242",
+    "category": "Normal Events",
+    "time": "Friday 16:40",
+    "location": "kitchen",
+    "event": "User is slicing a pear for the afternoon snack.",
+    "proactive": false,
+    "reason": "Normal Activity: Adheres to 16:40 snack routine."
+  },
+  {
+    "id": "E243",
+    "category": "Rule Violation",
+    "time": "Saturday 10:15",
+    "location": "bedroom",
+    "event": "User is feeding the dog bits of a biscuit in the bedroom.",
+    "proactive": true,
+    "reason": "Rule violation: No feeding pets in the bedroom (Rule R003)."
+  },
+  {
+    "id": "E244",
+    "category": "Habit Deviation",
+    "time": "Sunday 10:15",
+    "location": "living room",
+    "event": "User is watching a morning talk show on TV.",
+    "proactive": true,
+    "reason": "Habit Deviation: User is not performing the scheduled bed sheet changing routine (Sunday 10:00-10:30)."
+  },
+  {
+    "id": "E245",
+    "category": "Habit Deviation",
+    "time": "Sunday 15:10",
+    "location": "bedroom",
+    "event": "User is taking an afternoon nap.",
+    "proactive": true,
+    "reason": "Habit Deviation: User is missing the scheduled weekly finance review and budgeting session (Sunday 15:00-15:30)."
+  },
+  {
+    "id": "E246",
+    "category": "World Knowledge",
+    "time": "Sunday 08:35",
+    "location": "bedroom",
+    "event": "User is taking blood pressure while talking loudly on the phone.",
+    "proactive": true,
+    "reason": "Medical logic: Talking during BP measurement causes inaccurate high readings."
+  },
+  {
+    "id": "E247",
+    "category": "Habit Deviation",
+    "time": "Monday 16:45",
+    "location": "study",
+    "event": "User finished the daily summary but is now starting a new complex research task instead of taking a break.",
+    "proactive": true,
+    "reason": "Health advice: Neglecting the 16:40 transition to rest/stretch; risk of burnout."
+  },
+  {
+    "id": "E248",
+    "category": "Normal Events",
+    "time": "Tuesday 12:30",
+    "location": "kitchen",
+    "event": "User is washing their hands after finishing lunch.",
+    "proactive": false,
+    "reason": "Normal Activity: Post-meal hygiene."
+  },
+  {
+    "id": "E249",
+    "category": "Anomaly Detection",
+    "time": "Wednesday 22:45",
+    "location": "bathroom",
+    "event": "Water is overflowing from the bathtub onto the floor.",
+    "proactive": true,
+    "reason": "Critical Safety/Resource: Flooding hazard."
+  },
+  {
+    "id": "E250",
+    "category": "Rule Violation",
+    "time": "Friday 09:05",
+    "location": "study",
+    "event": "User is drinking an energy drink (caffeine) after already having a coffee.",
+    "proactive": true,
+    "reason": "Rule violation: Potential caffeine limit breach and unhealthy work habits."
+  },
+  {
+    "id": "E251",
+    "category": "World Knowledge",
+    "time": "Saturday 14:00",
+    "location": "living room",
+    "event": "User is attempting to repair a power outlet with the circuit breaker still ON.",
+    "proactive": true,
+    "reason": "Critical Safety: Lethal electric shock risk."
+  },
+  {
+    "id": "E252",
+    "category": "Normal Events",
+    "time": "Sunday 14:30",
+    "location": "garage",
+    "event": "User is scrubbing the car tires with a brush.",
+    "proactive": false,
+    "reason": "Normal Activity: Standard part of the car wash routine."
+  },
+  {
+    "id": "E253",
+    "category": "Habit Deviation",
+    "time": "Monday 10:00",
+    "location": "entrance",
+    "event": "User is chatting with a neighbor at the door, ignoring the start of the video conference.",
+    "proactive": true,
+    "reason": "Schedule adherence: Socializing is delaying a professional commitment."
+  },
+  {
+    "id": "E254",
+    "category": "Normal Events",
+    "time": "Wednesday 21:20",
+    "location": "balcony",
+    "event": "User is checking the detergent level in the washing machine.",
+    "proactive": false,
+    "reason": "Normal Activity: Routine maintenance during laundry."
+  },
+  {
+    "id": "E255",
+    "category": "Rule Violation",
+    "time": "Thursday 23:35",
+    "location": "bedroom",
+    "event": "User is reading an e-book on a brightly lit tablet after the sleep deadline.",
+    "proactive": true,
+    "reason": "Rule violation: Electronic device usage past 23:00 (Rule R006)."
+  },
+  {
+    "id": "E256",
+    "category": "Normal Events",
+    "time": "Saturday 20:15",
+    "location": "living room",
+    "event": "User is laughing and talking during the family video call.",
+    "proactive": false,
+    "reason": "Normal Activity: Socializing within habit window."
+  },
+  {
+    "id": "E257",
+    "category": "Habit Deviation",
+    "time": "Sunday 09:15",
+    "location": "bedroom",
+    "event": "User has stripped the bed sheets but left them in a ball on the pillow instead of taking them to the laundry.",
+    "proactive": true,
+    "reason": "Task completion: Incomplete chore; hinders bed access and hygiene."
+  },
+  {
+    "id": "E258",
+    "category": "Normal Events",
+    "time": "Monday 07:15",
+    "location": "bedroom",
+    "event": "User is stretching their arms after waking up.",
+    "proactive": false,
+    "reason": "Normal Activity: Waking up sequence."
+  },
+  {
+    "id": "E259",
+    "category": "Rule Violation",
+    "time": "Tuesday 15:00",
+    "location": "study",
+    "event": "User is eating a burger at the workstation.",
+    "proactive": true,
+    "reason": "Rule violation: Severe violation of the 'No Food in Study' rule (Rule R007)."
+  },
+  {
+    "id": "E260",
+    "category": "Rule Violation",
+    "time": "Monday 07:15",
+    "location": "bedroom",
+    "event": "User is giving a morning treat to the dog while lying in bed.",
+    "proactive": true,
+    "reason": "Hygiene: Feeding pets in the bedroom is strictly forbidden (Rule R003)."
+  },
+  {
+    "id": "E261",
+    "category": "World Knowledge",
+    "time": "Wednesday 18:40",
+    "location": "kitchen",
+    "event": "User is putting a sealed metal can of soup directly into the microwave.",
+    "proactive": true,
+    "reason": "Critical Safety: Fire/Explosion hazard."
+  },
+  {
+    "id": "E262",
+    "category": "Habit Deviation",
+    "time": "Thursday 22:45",
+    "location": "bathroom",
+    "event": "User has been in the shower for 45 minutes (past usual 22:40 brush teeth time).",
+    "proactive": true,
+    "reason": "Schedule adherence: Excessive hygiene time is delaying sleep and wasting resources."
+  },
+  {
+    "id": "E263",
+    "category": "Normal Events",
+    "time": "Friday 16:10",
+    "location": "study",
+    "event": "User is typing the weekly summary report.",
+    "proactive": false,
+    "reason": "Normal Activity: Aligns with 16:00 productivity ritual."
+  },
+  {
+    "id": "E264",
+    "category": "Anomaly Detection",
+    "time": "Saturday 03:00",
+    "location": "entrance",
+    "event": "A stranger is peering through the door glass and trying the handle.",
+    "proactive": true,
+    "reason": "Critical Security: Home invasion/theft attempt detected."
+  },
+  {
+    "id": "E265",
+    "category": "Normal Events",
+    "time": "Monday 08:05",
+    "location": "living room",
+    "event": "User is sitting cross-legged on the floor, breathing deeply.",
+    "proactive": false,
+    "reason": "Normal Activity: Aligns with daily 08:00 meditation habit."
+  },
+  {
+    "id": "E266",
+    "category": "Habit Deviation",
+    "time": "Monday 08:15",
+    "location": "kitchen",
+    "event": "User is frying eggs instead of finishing meditation.",
+    "proactive": true,
+    "reason": "Habit deviation: User cut the meditation session short (Usual: 08:00-08:20)."
+  },
+  {
+    "id": "E267",
+    "category": "Normal Events",
+    "time": "Tuesday 08:35",
+    "location": "kitchen",
+    "event": "User is eating oatmeal and fruit.",
+    "proactive": false,
+    "reason": "Normal Activity: Daily breakfast routine."
+  },
+  {
+    "id": "E268",
+    "category": "Habit Deviation",
+    "time": "Tuesday 08:50",
+    "location": "bedroom",
+    "event": "User is looking for a shirt, forgetting the scheduled medication.",
+    "proactive": true,
+    "reason": "Health adherence: Risk of missing 08:45 medication window."
+  },
+  {
+    "id": "E269",
+    "category": "Normal Events",
+    "time": "Wednesday 08:45",
+    "location": "living room",
+    "event": "User is drinking water and taking a pill.",
+    "proactive": false,
+    "reason": "Normal Activity: Daily medication adherence."
+  },
+  {
+    "id": "E270",
+    "category": "Normal Events",
+    "time": "Thursday 08:10",
+    "location": "living room",
+    "event": "User is meditating quietly.",
+    "proactive": false,
+    "reason": "Normal Activity: Morning routine."
+  },
+  {
+    "id": "E271",
+    "category": "Rule Violation",
+    "time": "Thursday 09:10",
+    "location": "study",
+    "event": "User enters the study with a plate of leftover breakfast pancakes.",
+    "proactive": true,
+    "reason": "Rule violation: No food in the study (Rule R007)."
+  },
+  {
+    "id": "E272",
+    "category": "Normal Events",
+    "time": "Friday 08:30",
+    "location": "kitchen",
+    "event": "User is preparing breakfast.",
+    "proactive": false,
+    "reason": "Normal Activity: Daily meal prep."
+  },
+  {
+    "id": "E273",
+    "category": "Rule Violation",
+    "time": "Friday 08:45",
+    "location": "kitchen",
+    "event": "User is slowly preparing a complex breakfast.",
+    "proactive": true,
+    "reason": "Task Deadline: Routine task (watering plants) pending before 10:00 deadline (Rule R012)."
+  },
+  {
+    "id": "E274",
+    "category": "Normal Events",
+    "time": "Saturday 08:15",
+    "location": "living room",
+    "event": "User is meditating.",
+    "proactive": false,
+    "reason": "Normal Activity: Weekend routine."
+  },
+  {
+    "id": "E275",
+    "category": "Habit Deviation",
+    "time": "Sunday 08:35",
+    "location": "kitchen",
+    "event": "User is making coffee before taking their blood pressure.",
+    "proactive": true,
+    "reason": "Medical logic: Caffeine should be avoided immediately before BP measurement (Sun 08:30 Routine)."
+  },
+  {
+    "id": "E276",
+    "category": "Normal Events",
+    "time": "Sunday 08:32",
+    "location": "bedroom",
+    "event": "User is sitting still with the BP cuff on their arm.",
+    "proactive": false,
+    "reason": "Normal Activity: Weekly health check."
+  },
+  {
+    "id": "E277",
+    "category": "World Knowledge",
+    "time": "Monday 07:45",
+    "location": "bathroom",
+    "event": "User has left the bathroom, but the water in the sink is still running.",
+    "proactive": true,
+    "reason": "Resource logic: Water waste detected."
+  },
+  {
+    "id": "E278",
+    "category": "Normal Events",
+    "time": "Tuesday 07:10",
+    "location": "bedroom",
+    "event": "User wakes up and checks the iPad for weather/news.",
+    "proactive": false,
+    "reason": "Normal Activity: Morning wake-up ritual."
+  },
+  {
+    "id": "E279",
+    "category": "Habit Deviation",
+    "time": "Wednesday 07:30",
+    "location": "bedroom",
+    "event": "User is still asleep.",
+    "proactive": true,
+    "reason": "Habit deviation: Oversleeping or missed start of the morning sequence."
+  },
+  {
+    "id": "E280",
+    "category": "Normal Events",
+    "time": "Thursday 07:40",
+    "location": "bathroom",
+    "event": "User is showering.",
+    "proactive": false,
+    "reason": "Normal Activity: Morning hygiene."
+  },
+  {
+    "id": "E281",
+    "category": "Rule Violation",
+    "time": "Thursday 07:45",
+    "location": "bathroom",
+    "event": "User is watching a video on their phone while in the shower.",
+    "proactive": true,
+    "reason": "Rule violation: No electronics in the bathroom (Rule R005)."
+  },
+  {
+    "id": "E282",
+    "category": "Normal Events",
+    "time": "Friday 07:55",
+    "location": "bathroom",
+    "event": "User is styling their hair.",
+    "proactive": false,
+    "reason": "Normal Activity: Grooming."
+  },
+  {
+    "id": "E283",
+    "category": "Rule Violation",
+    "time": "Sunday 16:45",
+    "location": "study",
+    "event": "User is playing a console game connected to the study monitor for the 140th consecutive minute.",
+    "proactive": true,
+    "reason": "Digital wellness: Gaming session duration (2 hours 20 mins) exceeds the 2-hour limit (Rule R009)."
+  },
+  {
+    "id": "E284",
+    "category": "Normal Events",
+    "time": "Monday 14:10",
+    "location": "study",
+    "event": "User is typing on the laptop.",
+    "proactive": false,
+    "reason": "Normal Activity: Aligns with 14:00-16:00 Deep Work."
+  },
+  {
+    "id": "E285",
+    "category": "Habit Deviation",
+    "time": "Monday 15:05",
+    "location": "study",
+    "event": "User has been working for 65 minutes and hasn't stood up.",
+    "proactive": true,
+    "reason": "Condition triggered: Missed hourly stretching break (Conditional Routine)."
+  },
+  {
+    "id": "E286",
+    "category": "Normal Events",
+    "time": "Tuesday 14:45",
+    "location": "study",
+    "event": "User is reading a technical paper.",
+    "proactive": false,
+    "reason": "Normal Activity: Deep Work session."
+  },
+  {
+    "id": "E287",
+    "category": "Rule Violation",
+    "time": "Wednesday 22:45",
+    "location": "bedroom",
+    "event": "User places a bowl of wet food on the bedroom carpet for the cat.",
+    "proactive": true,
+    "reason": "Hygiene: Feeding pets in the bedroom is strictly forbidden (Rule R003)."
+  },
+  {
+    "id": "E288",
+    "category": "Rule Violation",
+    "time": "Tuesday 15:20",
+    "location": "study",
+    "event": "User is eating a chocolate bar at the desk.",
+    "proactive": true,
+    "reason": "Rule violation: No food in the study (Rule R007)."
+  },
+  {
+    "id": "E289",
+    "category": "Normal Events",
+    "time": "Wednesday 16:10",
+    "location": "study",
+    "event": "User is writing the daily task summary.",
+    "proactive": false,
+    "reason": "Normal Activity: Drafting daily summary (16:00-16:40)."
+  },
+  {
+    "id": "E290",
+    "category": "Habit Deviation",
+    "time": "Wednesday 16:50",
+    "location": "study",
+    "event": "User is still working on the summary, missing the 16:40 snack/stretch break.",
+    "proactive": true,
+    "reason": "Habit deviation: Overworking past the transition window; suggest rest."
+  },
+  {
+    "id": "E291",
+    "category": "Normal Events",
+    "time": "Thursday 14:05",
+    "location": "study",
+    "event": "User is organizing files for deep work.",
+    "proactive": false,
+    "reason": "Normal Activity: Start of work block."
+  },
+  {
+    "id": "E292",
+    "category": "Rule Violation",
+    "time": "Thursday 15:15",
+    "location": "study",
+    "event": "User is drinking a large mug of coffee (3rd cup today already).",
+    "proactive": true,
+    "reason": "Rule violation: Approaching daily coffee limit (Rule R002)."
+  },
+  {
+    "id": "E293",
+    "category": "Normal Events",
+    "time": "Friday 16:05",
+    "location": "study",
+    "event": "User is drafting weekly emails.",
+    "proactive": false,
+    "reason": "Normal Activity: Friday email routine (16:00-17:00)."
+  },
+  {
+    "id": "E294",
+    "category": "World Knowledge",
+    "time": "Friday 17:45",
+    "location": "study",
+    "event": "User is wiping the computer screen with a wet paper towel while it's on.",
+    "proactive": true,
+    "reason": "Safety/Hardware: Risk of liquid entering the bezel; suggest using a microfiber cloth."
+  },
+  {
+    "id": "E295",
+    "category": "Normal Events",
+    "time": "Monday 21:40",
+    "location": "study",
+    "event": "User is studying an online course.",
+    "proactive": false,
+    "reason": "Normal Activity: Nighttime self-study (21:30-22:30)."
+  },
+  {
+    "id": "E296",
+    "category": "Rule Violation",
+    "time": "Monday 22:00",
+    "location": "study",
+    "event": "User is eating instant noodles while studying.",
+    "proactive": true,
+    "reason": "Rule violation: No food in study (Rule R007)."
+  },
+  {
+    "id": "E297",
+    "category": "Normal Events",
+    "time": "Wednesday 21:50",
+    "location": "study",
+    "event": "User is taking notes on a tablet.",
+    "proactive": false,
+    "reason": "Normal Activity: Self-study session."
+  },
+  {
+    "id": "E298",
+    "category": "Habit Deviation",
+    "time": "Wednesday 22:45",
+    "location": "study",
+    "event": "User is still studying, skipping the 22:30 skincare routine.",
+    "proactive": true,
+    "reason": "Habit deviation: Late night study is encroaching on hygiene and sleep prep."
+  },
+  {
+    "id": "E299",
+    "category": "Normal Events",
+    "time": "Friday 21:30",
+    "location": "living room",
+    "event": "User is watching a movie on the TV.",
+    "proactive": false,
+    "reason": "Normal Activity: Friday movie habit (21:00-23:00)."
+  },
+  {
+    "id": "E300",
+    "category": "Rule Violation",
+    "time": "Friday 23:05",
+    "location": "living room",
+    "event": "User is starting a second movie after the first one ended.",
+    "proactive": true,
+    "reason": "Rule violation: No electronic entertainment after 23:00 (Rule R006)."
+  },
+  {
+    "id": "E301",
+    "category": "Normal Events",
+    "time": "Saturday 22:45",
+    "location": "study",
+    "event": "User is playing a PC game.",
+    "proactive": false,
+    "reason": "Normal Activity: Saturday night gaming (22:30-00:00)."
+  },
+  {
+    "id": "E302",
+    "category": "Rule Violation",
+    "time": "Saturday 23:05",
+    "location": "study",
+    "event": "User is still playing PC games past 23:00.",
+    "proactive": true,
+    "reason": "Rule violation: Electronics ban after 23:00 (Rule R006 overrides Habit)."
+  },
+  {
+    "id": "E303",
+    "category": "Normal Events",
+    "time": "Sunday 15:10",
+    "location": "study",
+    "event": "User is checking their bank statement.",
+    "proactive": false,
+    "reason": "Normal Activity: Sunday personal finance routine (15:00-16:00)."
+  },
+  {
+    "id": "E304",
+    "category": "Normal Events",
+    "time": "Monday 19:20",
+    "location": "outdoor",
+    "event": "User is walking the dog in the neighborhood.",
+    "proactive": false,
+    "reason": "Normal Activity: Daily dog walk (19:15-19:45)."
+  },
+  {
+    "id": "E305",
+    "category": "World Knowledge",
+    "time": "Monday 19:46",
+    "location": "entrance",
+    "event": "User returns from the walk and heads to the sofa without washing hands.",
+    "proactive": true,
+    "reason": "Condition triggered: Missed sanitization after dog walk (Conditional Routine)."
+  },
+  {
+    "id": "E306",
+    "category": "Normal Events",
+    "time": "Tuesday 19:05",
+    "location": "outdoor",
+    "event": "User is carrying a trash bag to the collection point.",
+    "proactive": false,
+    "reason": "Normal Activity: Daily trash disposal (19:00-19:15)."
+  },
+  {
+    "id": "E307",
+    "category": "Habit Deviation",
+    "time": "Tuesday 20:10",
+    "location": "living room",
+    "event": "User is reading, but the dog's 20:00 meal has not been served.",
+    "proactive": true,
+    "reason": "Habit deviation: Missed pet feeding window (Usual: 20:00)."
+  },
+  {
+    "id": "E308",
+    "category": "Rule Violation",
+    "time": "Tuesday 07:30",
+    "location": "kitchen",
+    "event": "User is watching a video on a tablet propped up against a cereal box while eating breakfast.",
+    "proactive": true,
+    "reason": "Table manners: No phones or tablets at the dining table while eating (Rule R008)."
+  },
+  {
+    "id": "E309",
+    "category": "Rule Violation",
+    "time": "Saturday 14:00",
+    "location": "bedroom",
+    "event": "User is training the puppy with food rewards near the wardrobe.",
+    "proactive": true,
+    "reason": "Hygiene: Feeding pets in the bedroom is strictly forbidden (Rule R003)."
+  },
+  {
+    "id": "E310",
+    "category": "Normal Events",
+    "time": "Wednesday 20:10",
+    "location": "balcony",
+    "event": "User is pouring kibble into the dog bowl.",
+    "proactive": false,
+    "reason": "Normal Activity: Daily pet feeding (20:00-20:20)."
+  },
+  {
+    "id": "E311",
+    "category": "Rule Violation",
+    "time": "Wednesday 20:15",
+    "location": "bedroom",
+    "event": "User is giving the dog a treat while lying on the bed.",
+    "proactive": true,
+    "reason": "Rule violation: No feeding pets in the bedroom (Rule R003)."
+  },
+  {
+    "id": "E312",
+    "category": "Normal Events",
+    "time": "Saturday 10:15",
+    "location": "living room",
+    "event": "User is dusting the bookshelves.",
+    "proactive": false,
+    "reason": "Normal Activity: Saturday cleaning (10:00-11:30)."
+  },
+  {
+    "id": "E313",
+    "category": "World Knowledge",
+    "time": "Saturday 10:45",
+    "location": "kitchen",
+    "event": "User is mopping the kitchen floor and has left a bucket of water unattended near a curious toddler/dog.",
+    "proactive": true,
+    "reason": "Safety hazard: Drowning/spill risk for pets or small children (World Knowledge)."
+  },
+  {
+    "id": "E314",
+    "category": "Normal Events",
+    "time": "Sunday 21:15",
+    "location": "balcony",
+    "event": "User is putting clothes into the washing machine.",
+    "proactive": false,
+    "reason": "Normal Activity: Sunday laundry (21:10-21:30)."
+  },
+  {
+    "id": "E315",
+    "category": "Habit Deviation",
+    "time": "Monday 19:05",
+    "location": "kitchen",
+    "event": "User is still cooking dinner at 19:05, delaying the 19:00 trash routine.",
+    "proactive": true,
+    "reason": "Schedule adherence: Dinner prep is running late and impacting following tasks."
+  },
+  {
+    "id": "E316",
+    "category": "Normal Events",
+    "time": "Tuesday 08:20",
+    "location": "entrance",
+    "event": "User is taking out the recyclable bins.",
+    "proactive": false,
+    "reason": "Normal Activity: Tuesday recycling routine (08:15-08:25)."
+  },
+  {
+    "id": "E317",
+    "category": "Anomaly Detection",
+    "time": "Tuesday 13:45",
+    "location": "garage",
+    "event": "The garage door has been left open for 20 minutes while the user is inside the house.",
+    "proactive": true,
+    "reason": "Security risk: Unexpected breach of garage perimeter; risk of theft."
+  },
+  {
+    "id": "E318",
+    "category": "Normal Events",
+    "time": "Sunday 13:50",
+    "location": "garage",
+    "event": "User is vacuuming the car seats.",
+    "proactive": false,
+    "reason": "Normal Activity: Sunday car maintenance (13:45-14:45)."
+  },
+  {
+    "id": "E319",
+    "category": "World Knowledge",
+    "time": "Sunday 14:00",
+    "location": "garage",
+    "event": "User is using high-pressure water near the car's electrical charging port.",
+    "proactive": true,
+    "reason": "Safety logic: Risk of short circuit or damage to the charging system."
+  },
+  {
+    "id": "E320",
+    "category": "Normal Events",
+    "time": "Friday 08:45",
+    "location": "balcony",
+    "event": "User is watering the flower pots.",
+    "proactive": false,
+    "reason": "Normal Activity: Friday plant care (08:40-09:00)."
+  },
+  {
+    "id": "E321",
+    "category": "Habit Deviation",
+    "time": "Saturday 11:45",
+    "location": "balcony",
+    "event": "User has left outdoor tools scattered on the balcony floor after organizing them.",
+    "proactive": true,
+    "reason": "Task completion: Balcony organization incomplete; trip hazard (Usual: 11:30-12:00)."
+  },
+  {
+    "id": "E322",
+    "category": "Normal Events",
+    "time": "Wednesday 21:20",
+    "location": "balcony",
+    "event": "User is checking the laundry status.",
+    "proactive": false,
+    "reason": "Normal Activity: Wednesday laundry routine."
+  },
+  {
+    "id": "E323",
+    "category": "Normal Events",
+    "time": "Saturday 11:35",
+    "location": "balcony",
+    "event": "User is putting hiking gear into storage bins.",
+    "proactive": false,
+    "reason": "Normal Activity: Gear organization routine."
+  },
+  {
+    "id": "E324",
+    "category": "Normal Events",
+    "time": "Monday 12:15",
+    "location": "kitchen",
+    "event": "User is eating lunch at the counter.",
+    "proactive": false,
+    "reason": "Normal Activity: Daily lunch (12:00-12:45)."
+  },
+  {
+    "id": "E325",
+    "category": "Rule Violation",
+    "time": "Monday 12:20",
+    "location": "kitchen",
+    "event": "User is watching a movie on their laptop while eating lunch at the table.",
+    "proactive": true,
+    "reason": "Rule violation: No electronic devices at the dining table (Rule R008)."
+  },
+  {
+    "id": "E326",
+    "category": "Rule Violation",
+    "time": "Thursday 19:15",
+    "location": "kitchen",
+    "event": "User is scrolling through social media on a smartphone with one hand while holding a fork with the other.",
+    "proactive": true,
+    "reason": "Table manners: No phones or tablets at the dining table while eating (Rule R008)."
+  },
+  {
+    "id": "E327",
+    "category": "Rule Violation",
+    "time": "Tuesday 20:15",
+    "location": "kitchen",
+    "event": "User is brewing a fresh pot of coffee just after dinner.",
+    "proactive": true,
+    "reason": "Dietary restriction: No coffee allowed after 8:00 PM (Rule R001)."
+  },
+  {
+    "id": "E328",
+    "category": "Normal Events",
+    "time": "Tuesday 12:50",
+    "location": "living room",
+    "event": "User is browsing news on a tablet.",
+    "proactive": false,
+    "reason": "Normal Activity: Midday news habit (12:45-13:00)."
+  },
+  {
+    "id": "E329",
+    "category": "Rule Violation",
+    "time": "Friday 19:30",
+    "location": "bedroom",
+    "event": "User is sharing pieces of a sandwich with the pet while watching TV in bed.",
+    "proactive": true,
+    "reason": "Hygiene: Feeding pets in the bedroom is strictly forbidden (Rule R003)."
+  },
+  {
+    "id": "E330",
+    "category": "Rule Violation",
+    "time": "Friday 02:00",
+    "location": "study",
+    "event": "User is wearing a VR headset and has been gaming continuously for 3 hours.",
+    "proactive": true,
+    "reason": "Digital wellness: Gaming session duration (3 hours) significantly exceeds the 2-hour limit (Rule R009)."
+  },
+  {
+    "id": "E331",
+    "category": "Habit Deviation",
+    "time": "Tuesday 13:05",
+    "location": "living room",
+    "event": "User is still browsing news and has not started their nap.",
+    "proactive": true,
+    "reason": "Schedule adherence: News browsing is delaying the 13:00 nap."
+  },
+  {
+    "id": "E332",
+    "category": "Normal Events",
+    "time": "Wednesday 13:10",
+    "location": "living room",
+    "event": "User is lying on the sofa with eyes closed.",
+    "proactive": false,
+    "reason": "Normal Activity: Daily nap (13:00-13:40)."
+  },
+  {
+    "id": "E333",
+    "category": "World Knowledge",
+    "time": "Wednesday 13:20",
+    "location": "living room",
+    "event": "User is napping, but the TV is still playing at high volume.",
+    "proactive": true,
+    "reason": "Context awareness: Excessive noise prevents quality rest; suggest muting TV."
+  },
+  {
+    "id": "E334",
+    "category": "Normal Events",
+    "time": "Thursday 16:45",
+    "location": "living room",
+    "event": "User is eating an apple and doing light leg stretches.",
+    "proactive": false,
+    "reason": "Normal Activity: Afternoon snack/stretch habit (16:40-17:00)."
+  },
+  {
+    "id": "E335",
+    "category": "Rule Violation",
+    "time": "Thursday 16:50",
+    "location": "living_room_sofa_area",
+    "event": "User is sitting on the sofa while eating their fruit snack.",
+    "proactive": true,
+    "reason": "Rule violation: No snacking on the sofa (Rule R004)."
+  },
+  {
+    "id": "E336",
+    "category": "Rule Violation",
+    "time": "Wednesday 23:30",
+    "location": "study",
+    "event": "User is sipping an espresso shot to stay awake for work.",
+    "proactive": true,
+    "reason": "Dietary restriction: No coffee allowed after 8:00 PM (Rule R001)."
+  },
+  {
+    "id": "E337",
+    "category": "Normal Events",
+    "time": "Friday 18:40",
+    "location": "kitchen",
+    "event": "User is chopping vegetables.",
+    "proactive": false,
+    "reason": "Normal Activity: Dinner prep (18:30-19:00)."
+  },
+  {
+    "id": "E338",
+    "category": "Rule Violation",
+    "time": "Friday 02:00",
+    "location": "living room",
+    "event": "User is drinking a cold brew coffee while watching a movie late at night.",
+    "proactive": true,
+    "reason": "Dietary restriction: No coffee allowed after 8:00 PM (Rule R001)."
+  },
+  {
+    "id": "E339",
+    "category": "Anomaly Detection",
+    "time": "Friday 18:50",
+    "location": "kitchen",
+    "event": "User has left the kitchen to answer the door while a pot is boiling on the stove.",
+    "proactive": true,
+    "reason": "Critical Safety: Stove left unattended; violates Rule R010."
+  },
+  {
+    "id": "E340",
+    "category": "Normal Events",
+    "time": "Saturday 16:40",
+    "location": "living room",
+    "event": "User is playing the piano.",
+    "proactive": false,
+    "reason": "Normal Activity: Saturday piano practice (16:30-17:30)."
+  },
+  {
+    "id": "E341",
+    "category": "Rule Violation",
+    "time": "Friday 09:50",
+    "location": "study",
+    "event": "User is focused on writing an email on the laptop.",
+    "proactive": true,
+    "reason": "Task Deadline: Only 10 minutes remaining to complete the watering task (Rule R012)."
+  },
+  {
+    "id": "E342",
+    "category": "Normal Events",
+    "time": "Sunday 20:35",
+    "location": "kitchen",
+    "event": "User is brewing chamomile tea.",
+    "proactive": false,
+    "reason": "Normal Activity: Nightly tea habit (20:30-20:50)."
+  },
+  {
+    "id": "E343",
+    "category": "Normal Events",
+    "time": "Monday 13:00",
+    "location": "living room",
+    "event": "User is napping on the sofa.",
+    "proactive": false,
+    "reason": "Normal Activity: Daily rest."
+  },
+  {
+    "id": "E344",
+    "category": "Habit Deviation",
+    "time": "Monday 13:50",
+    "location": "living room",
+    "event": "User is still deeply asleep on the sofa.",
+    "proactive": true,
+    "reason": "Schedule adherence: Oversleeping risks delaying the 14:00 Deep Work window."
+  },
+  {
+    "id": "E345",
+    "category": "Normal Events",
+    "time": "Tuesday 18:10",
+    "location": "living room",
+    "event": "User is doing push-ups.",
+    "proactive": false,
+    "reason": "Normal Activity: Daily workout (18:00-18:30)."
+  },
+  {
+    "id": "E346",
+    "category": "Anomaly Detection",
+    "time": "Tuesday 18:20",
+    "location": "living room",
+    "event": "User is performing high-intensity jumps near a fragile glass coffee table.",
+    "proactive": true,
+    "reason": "Safety hazard: Risk of furniture damage or personal injury during workout."
+  },
+  {
+    "id": "E347",
+    "category": "Normal Events",
+    "time": "Tuesday 19:45",
+    "location": "living room",
+    "event": "User is drinking a cup of herbal tea.",
+    "proactive": false,
+    "reason": "Dietary adherence: Coffee avoidance after 8:00 PM is maintained (Rule R001)."
+  },
+  {
+    "id": "E348",
+    "category": "Normal Events",
+    "time": "Wednesday 14:00",
+    "location": "kitchen",
+    "event": "User is eating snacks at the kitchen island.",
+    "proactive": false,
+    "reason": "Cleanliness: Eating snacks in designated area, avoiding sofa and study (Rule R004)."
+  },
+  {
+    "id": "E349",
+    "category": "Rule Violation",
+    "time": "Sunday 03:00",
+    "location": "bedroom",
+    "event": "User is refilling an automatic pet feeder located in the bedroom corner.",
+    "proactive": true,
+    "reason": "Hygiene: Feeding pets in the bedroom is strictly forbidden (Rule R003)."
+  },
+  {
+    "id": "E350",
+    "category": "Normal Events",
+    "time": "Monday 08:15",
+    "location": "bathroom",
+    "event": "User is reading a physical magazine while sitting on the toilet.",
+    "proactive": false,
+    "reason": "Safety/Hygiene: No electronic devices are being used in the bathroom (Rule R005)."
+  },
+  {
+    "id": "E351",
+    "category": "Rule Violation",
+    "time": "Saturday 16:35",
+    "location": "bedroom",
+    "event": "User is lying on the bed scrolling through social media.",
+    "proactive": true,
+    "reason": "Schedule Adherence: It is time for piano practice (16:30-17:30) (Rule R014)."
+  },
+  {
+    "id": "E352",
+    "category": "Normal Events",
+    "time": "Thursday 23:45",
+    "location": "bedroom",
+    "event": "User is reading a paperback book in bed.",
+    "proactive": false,
+    "reason": "Sleep hygiene: User is avoiding electronic devices after 11:00 PM (Rule R006)."
+  },
+  {
+    "id": "E353",
+    "category": "Normal Events",
+    "time": "Friday 19:30",
+    "location": "dining_table",
+    "event": "User is chatting with family while eating dinner.",
+    "proactive": false,
+    "reason": "Table manners: No phones or tablets present at the dining table (Rule R008)."
+  },
+  {
+    "id": "E354",
+    "category": "Rule Violation",
+    "time": "Saturday 11:30",
+    "location": "study",
+    "event": "User has been playing a PC strategy game since 09:00 without taking a break.",
+    "proactive": true,
+    "reason": "Digital wellness: Gaming session duration (2.5 hours) exceeds the 2-hour limit (Rule R009)."
+  },
+  {
+    "id": "E355",
+    "category": "Normal Events",
+    "time": "Saturday 15:00",
+    "location": "living room",
+    "event": "User is taking a walk outside after playing video games for 90 minutes.",
+    "proactive": false,
+    "reason": "Health/Productivity: Taking a break to ensure gaming session does not exceed 2 hours (Rule R009)."
+  },
+  {
+    "id": "E356",
+    "category": "Normal Events",
+    "time": "Sunday 18:20",
+    "location": "kitchen",
+    "event": "User is standing by the stove stirring the soup while it boils.",
+    "proactive": false,
+    "reason": "Fire Safety: User is present while the stove is in use (Rule R010)."
+  },
+  {
+    "id": "E357",
+    "category": "Normal Events",
+    "time": "Friday 09:00",
+    "location": "balcony",
+    "event": "User is watering the plants.",
+    "proactive": false,
+    "reason": "Task Completion: Watering plants completed before the Friday 10:00 deadline (Rule R012)."
+  },
+  {
+    "id": "E358",
+    "category": "Normal Events",
+    "time": "Saturday 16:35",
+    "location": "living room",
+    "event": "User is practicing scales on the piano.",
+    "proactive": false,
+    "reason": "Schedule Adherence: Piano practice is occurring within the scheduled window (Rule R014)."
+  },
+  {
+    "id": "E359",
+    "category": "Normal Events",
+    "time": "Monday 22:00",
+    "location": "study",
+    "event": "User is drinking water from a sealed bottle while working.",
+    "proactive": false,
+    "reason": "Cleanliness: Only water is being consumed, adhering to no food policy in study (Rule R007)."
+  },
+  {
+    "id": "E360",
+    "category": "Rule Violation",
+    "time": "Monday 15:30",
+    "location": "study",
+    "event": "User is pouring their 4th cup of coffee to overcome the afternoon slump.",
+    "proactive": true,
+    "reason": "Health limit: Daily coffee intake exceeds the maximum limit of 3 cups (Rule R002)."
+  },
+  {
+    "id": "E361",
+    "category": "Rule Violation",
+    "time": "Tuesday 21:15",
+    "location": "kitchen",
+    "event": "User is brewing and drinking a cup of coffee.",
+    "proactive": true,
+    "reason": "Dietary restriction: No coffee allowed after 8:00 PM (Rule R001)."
+  },
+  {
+    "id": "E362",
+    "category": "Rule Violation",
+    "time": "Wednesday 14:00",
+    "location": "living_room_sofa_area",
+    "event": "User is eating potato chips while watching TV on the sofa.",
+    "proactive": true,
+    "reason": "Cleanliness: No snacks allowed on the sofa (Rule R004)."
+  },
+  {
+    "id": "E363",
+    "category": "Rule Violation",
+    "time": "Monday 08:15",
+    "location": "bathroom",
+    "event": "User is scrolling through social media on a smartphone while sitting on the toilet.",
+    "proactive": true,
+    "reason": "Safety/Hygiene: No electronic devices allowed in the bathroom (Rule R005)."
+  },
+  {
+    "id": "E364",
+    "category": "Rule Violation",
+    "time": "Thursday 23:45",
+    "location": "bedroom",
+    "event": "User is lying in bed watching videos on a tablet.",
+    "proactive": true,
+    "reason": "Sleep hygiene: No electronic devices allowed after 11:00 PM (Rule R006)."
+  },
+  {
+    "id": "E365",
+    "category": "Rule Violation",
+    "time": "Friday 19:30",
+    "location": "dining_table",
+    "event": "User is texting on a smartphone while eating dinner.",
+    "proactive": true,
+    "reason": "Table manners: No phones or tablets at the dining table while eating (Rule R008)."
+  },
+  {
+    "id": "E366",
+    "category": "Rule Violation",
+    "time": "Saturday 15:00",
+    "location": "study",
+    "event": "User has been playing video games continuously for 135 minutes without a break.",
+    "proactive": true,
+    "reason": "Health/Productivity: Gaming sessions must not exceed 2 hours continuously (Rule R009)."
+  },
+  {
+    "id": "E367",
+    "category": "Rule Violation",
+    "time": "Sunday 18:20",
+    "location": "living room",
+    "event": "User is watching TV while a pot of soup is boiling on the stove in the kitchen.",
+    "proactive": true,
+    "reason": "Fire Safety: Human presence is required whenever the kitchen stove is on (Rule R010)."
+  },
+  {
+    "id": "E368",
+    "category": "Rule Violation",
+    "time": "Friday 10:15",
+    "location": "living room",
+    "event": "User is reading a book, but the plants on the balcony have not been watered yet.",
+    "proactive": true,
+    "reason": "Task Deadline: Watering plants must be completed before Friday 10:00 (Rule R012)."
+  },
+  {
+    "id": "E369",
+    "category": "Rule Violation",
+    "time": "Saturday 16:45",
+    "location": "bedroom",
+    "event": "User is taking a nap instead of practicing the piano.",
+    "proactive": true,
+    "reason": "Schedule Adherence: Piano practice must occur on Saturday between 16:30 and 17:30 (Rule R014)."
+  },
+  {
+    "id": "E370",
+    "category": "Rule Violation",
+    "time": "Sunday 22:15",
+    "location": "living room",
+    "event": "User is watching a movie on the sofa, but the laundry basket is still full.",
+    "proactive": true,
+    "reason": "Task Deadline: Laundry was not completed before the Sunday 21:40 deadline (Rule R013)."
+  },
+  {
+    "id": "E371",
+    "category": "Rule Violation",
+    "time": "Monday 22:00",
+    "location": "study",
+    "event": "User is eating a sandwich while working at the desk.",
+    "proactive": true,
+    "reason": "Cleanliness: No eating allowed in the study (Rule R007)."
+  },
+  {
+    "id": "E372",
+    "category": "Normal Events",
+    "time": "Saturday 21:30",
+    "location": "living room",
+    "event": "User is listening to music on the sound system.",
+    "proactive": false,
+    "reason": "Normal Activity: Saturday music habit (22:00-23:30 start - slightly early)."
+  },
+  {
+    "id": "E373",
+    "category": "Rule Violation",
+    "time": "Wednesday 19:30",
+    "location": "living room",
+    "event": "User is drinking their 4th cup of coffee while reading news.",
+    "proactive": true,
+    "reason": "Health limit: Daily coffee intake exceeds the maximum limit of 3 cups (Rule R002)."
+  },
+  {
+    "id": "E374",
+    "category": "Rule Violation",
+    "time": "Saturday 23:10",
+    "location": "living room",
+    "event": "User is turning up the volume of the music past 23:00.",
+    "proactive": true,
+    "reason": "Rule violation: Electronics/entertainment cutoff at 23:00 (Rule R006)."
+  },
+  {
+    "id": "E375",
+    "category": "Normal Events",
+    "time": "Monday 22:35",
+    "location": "bathroom",
+    "event": "User is applying moisturizer.",
+    "proactive": false,
+    "reason": "Normal Activity: Nightly skincare (22:30-22:40)."
+  },
+  {
+    "id": "E376",
+    "category": "Rule Violation",
+    "time": "Monday 22:38",
+    "location": "bathroom",
+    "event": "User is checking social media on their phone while applying skincare.",
+    "proactive": true,
+    "reason": "Rule violation: No electronics in the bathroom (Rule R005)."
+  },
+  {
+    "id": "E377",
+    "category": "Normal Events",
+    "time": "Sunday 10:30",
+    "location": "balcony",
+    "event": "User is hanging wet clothes on the drying rack.",
+    "proactive": false,
+    "reason": "Task Completion: Laundry is being processed well within the allowed time window (Rule R013)."
+  },
+  {
+    "id": "E378",
+    "category": "Rule Violation",
+    "time": "Sunday 21:00",
+    "location": "balcony",
+    "event": "User is holding a mug of latte while relaxing outside.",
+    "proactive": true,
+    "reason": "Dietary restriction: No coffee allowed after 8:00 PM (Rule R001)."
+  },
+  {
+    "id": "E379",
+    "category": "Rule Violation",
+    "time": "Thursday 17:45",
+    "location": "kitchen",
+    "event": "User is preparing a 5th cup of coffee for the day.",
+    "proactive": true,
+    "reason": "Health limit: Daily coffee intake exceeds the maximum limit of 3 cups (Rule R002)."
+  },
+  {
+    "id": "E380",
+    "category": "Normal Events",
+    "time": "Tuesday 22:45",
+    "location": "bathroom",
+    "event": "User is brushing their teeth.",
+    "proactive": false,
+    "reason": "Normal Activity: Daily hygiene (22:40-22:50)."
+  },
+  {
+    "id": "E381",
+    "category": "Normal Events",
+    "time": "Wednesday 22:55",
+    "location": "bedroom",
+    "event": "User is plugging in their phone and tablet.",
+    "proactive": false,
+    "reason": "Normal Activity: Charging routine (22:50-23:00)."
+  },
+  {
+    "id": "E382",
+    "category": "Rule Violation",
+    "time": "Sunday 21:50",
+    "location": "balcony",
+    "event": "User is just starting to load the washing machine.",
+    "proactive": true,
+    "reason": "Task Deadline: Laundry started too late and missed the 21:40 completion deadline (Rule R013)."
+  },
+  {
+    "id": "E383",
+    "category": "Normal Events",
+    "time": "Thursday 23:15",
+    "location": "bedroom",
+    "event": "User is reading a physical book in bed.",
+    "proactive": false,
+    "reason": "Normal Activity: Pre-sleep wind down."
+  },
+  {
+    "id": "E384",
+    "category": "Rule Violation",
+    "time": "Thursday 23:20",
+    "location": "bedroom",
+    "event": "User is scrolling through emails on their smartphone in bed.",
+    "proactive": true,
+    "reason": "Rule violation: No electronics after 23:00 (Rule R006)."
+  },
+  {
+    "id": "E385",
+    "category": "Normal Events",
+    "time": "Friday 23:45",
+    "location": "bedroom",
+    "event": "User is asleep.",
+    "proactive": false,
+    "reason": "Normal Activity: Sleep state (23:30-07:00)."
+  },
+  {
+    "id": "E386",
+    "category": "Normal Events",
+    "time": "Sunday 20:00",
+    "location": "living room",
+    "event": "User is folding dried clothes while listening to music.",
+    "proactive": false,
+    "reason": "Task Completion: Laundry task was successfully completed before the deadline (Rule R013)."
+  },
+  {
+    "id": "E387",
+    "category": "Anomaly Detection",
+    "time": "Friday 03:00",
+    "location": "bedroom",
+    "event": "User is restless, tossing and turning frequently for the last hour.",
+    "proactive": true,
+    "reason": "Health/Anomaly: Potential insomnia or sleep disturbance detected."
+  },
+  {
+    "id": "E388",
+    "category": "Rule Violation",
+    "time": "Wednesday 16:45",
+    "location": "kitchen",
+    "event": "User is preparing a fourth cup of coffee for the day.",
+    "proactive": true,
+    "reason": "Health limit: Daily coffee intake exceeds the maximum limit of 3 cups (Rule R002)."
+  },
+  {
+    "id": "E389",
+    "category": "Rule Violation",
+    "time": "Monday 07:30",
+    "location": "bedroom",
+    "event": "User is looking for clean socks but realizes none are available.",
+    "proactive": true,
+    "reason": "Task Deadline: The weekly laundry task required by Sunday 21:40 was missed (Rule R013)."
+  },
+  {
+    "id": "E390",
+    "category": "Rule Violation",
+    "time": "Saturday 08:30",
+    "location": "bedroom",
+    "event": "User is giving treats to the cat on the bed.",
+    "proactive": true,
+    "reason": "Hygiene: Feeding pets in the bedroom is strictly forbidden (Rule R003)."
+  },
+  {
+    "id": "E391",
+    "category": "Rule Violation",
+    "time": "Monday 19:15",
+    "location": "kitchen",
+    "event": "User is scrolling through social media on a phone while eating dinner.",
+    "proactive": true,
+    "reason": "Table manners: Using phones or tablets at the dining table while eating is forbidden (Rule R008)."
+  },
+  {
+    "id": "E392",
+    "category": "Rule Violation",
+    "time": "Friday 23:10",
+    "location": "study",
+    "event": "User has been playing a PC game continuously for 2 hours and 15 minutes without a break.",
+    "proactive": true,
+    "reason": "Digital wellness: Gaming session exceeded the 2-hour continuous limit (Rule R009)."
+  },
+  {
+    "id": "E393",
+    "category": "Rule Violation",
+    "time": "Sunday 22:00",
+    "location": "living room",
+    "event": "User is watching TV, but the weekly laundry pile is still untouched.",
+    "proactive": true,
+    "reason": "Task Deadline: Laundry was not completed before the Sunday 21:40 deadline (Rule R013)."
+  },
+  {
+    "id": "E394",
+    "category": "Normal Events",
+    "time": "Saturday 23:45",
+    "location": "bedroom",
+    "event": "User is getting into bed.",
+    "proactive": false,
+    "reason": "Normal Activity: Weekend sleep schedule."
+  },
+  {
+    "id": "E395",
+    "category": "Habit Deviation",
+    "time": "Saturday 22:55",
+    "location": "bedroom",
+    "event": "User is getting into bed without setting up the device charging station.",
+    "proactive": true,
+    "reason": "Task completion: Risk of dead batteries tomorrow; user missed the 22:50 charging routine."
+  },
+  {
+    "id": "E396",
+    "category": "Normal Events",
+    "time": "Sunday 22:45",
+    "location": "bathroom",
+    "event": "User is flossing.",
+    "proactive": false,
+    "reason": "Normal Activity: Nightly hygiene."
+  },
+  {
+    "id": "E397",
+    "category": "Rule Violation",
+    "time": "Saturday 13:00",
+    "location": "dining_table",
+    "event": "User is having a 4th cup of coffee immediately after lunch.",
+    "proactive": true,
+    "reason": "Health limit: Daily coffee intake exceeds the maximum limit of 3 cups (Rule R002)."
+  },
+  {
+    "id": "E398",
+    "category": "World Knowledge",
+    "time": "Monday 23:10",
+    "location": "bedroom",
+    "event": "The air conditioner is set to 16°C while the outdoor temperature is 10°C.",
+    "proactive": true,
+    "reason": "Resource/Health: Inefficient cooling and risk of hypothermia during sleep."
+  },
+  {
+    "id": "E399",
+    "category": "Anomaly Detection",
+    "time": "Wednesday 04:00",
+    "location": "kitchen",
+    "event": "Smoke alarm is triggered due to an electrical short in the toaster.",
+    "proactive": true,
+    "reason": "Critical Safety: Fire emergency detected."
+  },
+  {
+    "id": "E400",
+    "category": "Normal Events",
+    "time": "Thursday 07:05",
+    "location": "bedroom",
+    "event": "User is stretching after waking up.",
+    "proactive": false,
+    "reason": "Normal Activity: Start of day."
+  }
+]

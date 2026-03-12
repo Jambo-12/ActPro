@@ -1,0 +1,272 @@
+[
+    {
+        "is_daily": true,
+        "time": "07:00-07:15",
+        "location": "bedroom",
+        "action": "waking up and getting out of bed"
+    },
+    {
+        "is_daily": true,
+        "time": "07:15-07:25",
+        "location": "bedroom",
+        "action": "checking the weather/daily schedule on ipad"
+    },
+    {
+        "is_daily": true,
+        "time": "07:30-08:00",
+        "location": "bathroom",
+        "action": "morning grooming and washing"
+    },
+    {
+        "is_daily": true,
+        "time": "08:00-08:20",
+        "location": "living room",
+        "action": "morning meditation"
+    },
+    {
+        "is_daily": true,
+        "time": "08:30-08:45",
+        "location": "kitchen",
+        "action": "eating breakfast"
+    },
+    {
+        "is_daily": true,
+        "time": "08:45-09:00",
+        "location": "living room",
+        "action": "taking medicine"
+    },
+    {
+        "is_daily": true,
+        "time": "09:00-09:30",
+        "location": "kitchen",
+        "action": "making coffee"
+    },
+    {
+        "is_daily": true,
+        "time": "12:00-12:45",
+        "location": "kitchen",
+        "action": "eating lunch"
+    },
+    {
+        "is_daily": true,
+        "time": "12:45-13:00",
+        "location": "living room",
+        "action": "browsing news on tablet"
+    },
+    {
+        "is_daily": true,
+        "time": "13:00-13:40",
+        "location": "living room",
+        "action": "afternoon nap on sofa"
+    },
+    {
+        "is_daily": true,
+        "time": "14:00-16:00",
+        "location": "study",
+        "action": "deep work and focused reading"
+    },
+    {
+        "is_daily": true,
+        "time": "16:00-16:40",
+        "location": "study",
+        "action": "Drafting daily summary and task planning"
+    },
+    {
+        "is_daily": true,
+        "time": "16:40-17:00",
+        "location": "Living Room",
+        "action": "Afternoon fruit snack and light stretches"
+    },
+    {
+        "is_daily": true,
+        "time": "18:00-18:30",
+        "location": "living room",
+        "action": "daily workout and exercise"
+    },
+    {
+        "is_daily": true,
+        "time": "18:30-19:00",
+        "location": "kitchen",
+        "action": "preparing dinner"
+    },
+    {
+        "is_daily": true,
+        "time": "19:00-19:15",
+        "location": "outdoor",
+        "action": "taking out trash"
+    },
+    {
+        "is_daily": true,
+        "time": "19:15-19:45",
+        "location": "outdoor",
+        "action": "walking the dog"
+    },
+    {
+        "is_daily": true,
+        "time": "20:00-20:20",
+        "location": "balcony",
+        "action": "feeding the dog and refreshing the pet's water bowl"
+    },
+    {
+        "is_daily": true,
+        "time": "20:30-20:50",
+        "location": "kitchen",
+        "action": "brewing and drinking herbal tea"
+    },
+    {
+        "is_daily": true,
+        "time": "21:30-22:30",
+        "location": "study",
+        "action": "nighttime self-study and learning"
+    },
+    {
+        "is_daily": true,
+        "time": "22:30-22:40",
+        "location": "bathroom",
+        "action": "nighttime skincare and dental flossing"
+    },
+    {
+        "is_daily": true,
+        "time": "22:40-22:50",
+        "location": "bathroom",
+        "action": "brushing teeth before bed"
+    },
+    {
+        "is_daily": true,
+        "time": "22:50-23:00",
+        "location": "bedroom",
+        "action": "setting up charging for all mobile devices"
+    },
+    {
+        "is_daily": true,
+        "time": "23:00-23:30",
+        "location": "bedroom",
+        "action": "using smartphone in bed"
+    },
+    {
+        "is_daily": true,
+        "time": "23:30-07:00",
+        "location": "bedroom",
+        "action": "sleeping"
+    },
+    {
+        "day_of_week": ["monday"],
+        "time": "10:00-11:00",
+        "location": "study",
+        "action": "weekly video conference"
+    },
+    {
+        "day_of_week": ["monday"],
+        "time": "18:00-19:00",
+        "location": "living room",
+        "action": "Blood pressure measurement and health check-in"
+    },
+    {
+        "day_of_week": ["monday", "thursday"],
+        "time": "17:30-18:00",
+        "location": "study",
+        "action": "organizing physical documents and mail"
+    },
+    {
+        "day_of_week": ["tuesday", "thursday"],
+        "time": "19:30-20:30",
+        "location": "living room",
+        "action": "practicing yoga on the mat"
+    },
+    {
+        "day_of_week": ["wednesday", "sunday"],
+        "time": "21:10-21:30",
+        "location": "balcony",
+        "action": "loading laundry into machine"
+    },
+    {
+        "day_of_week": ["friday"],
+        "time": "08:40-09:00",
+        "location": "balcony",
+        "action": "watering plants"
+    },
+    {
+        "day_of_week": ["friday"],
+        "time": "16:00-17:00",
+        "location": "study",
+        "action": "replying to weekly emails"
+    },
+    {
+        "day_of_week": ["friday"],
+        "time": "17:30-18:00",
+        "location": "study",
+        "action": "backing up workstation data and cleaning keyboard"
+    },
+    {
+        "day_of_week": ["friday"],
+        "time": "21:00-23:00",
+        "location": "living room",
+        "action": "watching a movie"
+    },
+    {
+        "day_of_week": ["friday"],
+        "time": "22:30-00:00",
+        "location": "study",
+        "action": "playing computer games/PC gaming"
+    },
+    {
+        "day_of_week": ["saturday"],
+        "time": "10:00-11:30",
+        "location": "all rooms",
+        "action": "house cleaning and organizing"
+    },
+    {
+        "day_of_week": ["saturday"],
+        "time": "11:30-12:00",
+        "location": "balcony",
+        "action": "sorting and organizing outdoor gear/tools"
+    },
+    {
+        "day_of_week": ["saturday"],
+        "time": "16:30-17:30",
+        "location": "living room",
+        "action": "playing piano"
+    },
+    {
+        "day_of_week": ["saturday"],
+        "time": "20:00-21:00",
+        "location": "living room",
+        "action": "video call with family"
+    },
+    {
+        "day_of_week": ["saturday"],
+        "time": "22:00-23:30",
+        "location": "living room",
+        "action": "playing music or vinyl records"
+    },
+    {
+        "day_of_week": ["saturday"],
+        "time": "22:30-00:00",
+        "location": "study",
+        "action": "playing computer games/PC gaming"
+    },
+    {
+        "day_of_week": ["sunday"],
+        "time": "08:30-08:40",
+        "location": "bedroom",
+        "action": "measuring blood pressure"
+    },
+    {
+        "day_of_week": ["sunday"],
+        "time": "10:00-10:30",
+        "location": "bedroom",
+        "action": "stripping and changing bed sheets"
+    },
+    {
+        "day_of_week": ["sunday"],
+        "time": "13:45-14:45",
+        "location": "garage",
+        "action": "washing and vacuuming the car manually"
+    },
+    {
+        "day_of_week": ["sunday"],
+        "time": "15:00-16:00",
+        "location": "study",
+        "action": "reviewing weekly personal finances/budgeting"
+    }
+]

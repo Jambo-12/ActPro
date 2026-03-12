@@ -1,0 +1,114 @@
+[
+  {
+    "rule_id": "R001",
+    "description": "No coffee allowed after 8:00 PM.",
+    "target_action": "drinking coffee",
+    "time_window": "20:00 - 05:00",
+    "location": "anywhere",
+    "action": "forbid"
+  },
+  {
+    "rule_id": "R002",
+    "description": "Maximum 3 cups of coffee per day.",
+    "target_action": "drinking coffee",
+    "time_window": "always",
+    "location": "anywhere",
+    "action": "limit_count"
+  },
+  {
+    "rule_id": "R003",
+    "description": "No feeding pets in the bedroom at any time.",
+    "target_action": "feeding pets",
+    "time_window": "always",
+    "location": "bedroom",
+    "action": "forbid"
+  },
+  {
+    "rule_id": "R004",
+    "description": "No snacks allowed on the sofa or in the study.",
+    "target_action": "eating snacks",
+    "time_window": "always",
+    "location": "living_room_sofa_area, study",
+    "action": "forbid"
+  },
+  {
+    "rule_id": "R005",
+    "description": "No electronic devices allowed in the bathroom.",
+    "target_action": "using electronic devices",
+    "time_window": "always",
+    "location": "bathroom",
+    "action": "forbid"
+  },
+  {
+    "rule_id": "R006",
+    "description": "No electronic devices allowed after 11:00 PM.",
+    "target_action": "using electronic devices",
+    "time_window": "23:00 - 06:00",
+    "location": "anywhere",
+    "action": "forbid"
+  },
+  {
+    "rule_id": "R007",
+    "description": "No eating allowed in the study.",
+    "target_action": "eating (any food)",
+    "time_window": "always",
+    "location": "study",
+    "action": "forbid"
+  },
+  {
+    "rule_id": "R008",
+    "description": "No phones or tablets at the dining table while eating.",
+    "target_action": "using phones or tablets",
+    "time_window": "always",
+    "location": "kitchen",
+    "action": "forbid"
+  },
+  {
+    "rule_id": "R009",
+    "description": "Gaming sessions in the study must not exceed 2 hours continuously.",
+    "target_action": "playing video games",
+    "time_window": "always",
+    "location": "study",
+    "action": "limit_duration"
+  },
+  {
+    "rule_id": "R010",
+    "description": "Human presence is required whenever the kitchen stove is on.",
+    "target_action": "using stove",
+    "time_window": "always",
+    "location": "kitchen",
+    "action": "require presence or send alert"
+  },
+  {
+    "rule_id": "R011",
+    "description": "Full house cleaning must be completed before Saturday 12:00.",
+    "target_action": "full_house_cleaning",
+    "time_window": "Saturday 00:00 - 12:00",
+    "location": "anywhere",
+    "action": "remind_if_incomplete"
+  },
+  {
+    "rule_id": "R012",
+    "description": "Watering plants must be completed before Friday 10:00.",
+    "target_action": "watering_plants",
+    "time_window": "Friday 00:00 - 10:00",
+    "location": "balcony",
+    "action": "remind_if_incomplete"
+  },
+  {
+    "rule_id": "R013",
+    "description": "Laundry must be completed before Sunday 21:40.",
+    "target_action": "laundry_washing",
+    "time_window": "Sunday 00:00 - 21:40",
+    "location": "balcony",
+    "action": "remind_if_incomplete"
+  },
+  {
+    "rule_id": "R014",
+    "description": "Piano practice must occur on Saturday between 16:30 and 17:30.",
+    "target_action": "playing_piano",
+    "time_window": "Saturday 16:30 - 17:30",
+    "location": "living room",
+    "action": "enforce_schedule"
+  }
+]
