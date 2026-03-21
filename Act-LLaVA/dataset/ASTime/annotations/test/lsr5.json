@@ -1,0 +1,44 @@
+{
+    "lsr5": [
+        {
+            "t1_caption": "",
+            "start_time": 3,
+            "timestamp": 7,
+            "end_time": 18,
+            "text": "standing, washing",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 20,
+            "timestamp": 24,
+            "end_time": 28,
+            "text": "standing, reaching elevated objects",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 28,
+            "timestamp": 32.0,
+            "end_time": 39.0,
+            "text": "standing, operating a microwave",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 43.0,
+            "timestamp": 47.0,
+            "end_time": 55.0,
+            "text": "standing, washing",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 60.0,
+            "timestamp": 63.0,
+            "end_time": 66.0,
+            "text": "standing, operating a microwave",
+            "flag": 0
+        }
+    ]
+}

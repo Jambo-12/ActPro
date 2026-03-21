@@ -1,0 +1,188 @@
+{
+    "lsr4-1": [
+        {
+            "t1_caption": "",
+            "start_time": 6,
+            "timestamp": 11,
+            "end_time": 16,
+            "text": "sitting, pouring",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 17.0,
+            "timestamp": 19.0,
+            "end_time": 23.0,
+            "text": "sitting, drinking",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 25.0,
+            "timestamp": 27.0,
+            "end_time": 42.0,
+            "text": "sitting, reading",  
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 44.0,
+            "timestamp": 54.0,
+            "end_time": 63.0,
+            "text": "standing, putting on a jacket",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 64.0,   
+            "timestamp": 71.0,
+            "end_time": 80.0,
+            "text": "standing, drinking",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 82,
+            "timestamp": 85,
+            "end_time": 109,
+            "text": "sitting, using a phone",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 113,
+            "timestamp": 115,
+            "end_time": 122,
+            "text": "standing, taking off jacket",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 125,
+            "timestamp": 128,
+            "end_time": 142,
+            "text": "lying",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 147,
+            "timestamp": 151,
+            "end_time": 157,
+            "text": "standing, picking up",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 161,
+            "timestamp": 164,
+            "end_time": 173,
+            "text": "standing, reaching elevated objects",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 174,
+            "timestamp": 178,
+            "end_time": 188,
+            "text": "standing, carrying heavy objects",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 192,
+            "timestamp": 199,
+            "end_time": 207,
+            "text": "standing, drinking",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 208,
+            "timestamp": 212,
+            "end_time": 224,
+            "text": "standing, headache",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 228,
+            "timestamp": 230,
+            "end_time": 240,
+            "text": "standing, carrying heavy objects",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 245,
+            "timestamp": 249,
+            "end_time": 265,
+            "text": "lying",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 268,
+            "timestamp": 271,
+            "end_time": 281,
+            "text": "standing, stomachache",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 281,
+            "timestamp": 283,
+            "end_time": 291,
+            "text": "sitting, stomachache",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 294,
+            "timestamp": 302,
+            "end_time": 309,
+            "text": "sitting, drinking",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 311,
+            "timestamp": 314,
+            "end_time": 322,
+            "text": "sitting, pouring",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 327,
+            "timestamp": 344,
+            "end_time":  352,
+            "text": "standing, putting on a jacket",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 357,
+            "timestamp": 360,
+            "end_time": 366,
+            "text": "standing, drinking",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 366,
+            "timestamp": 370,
+            "end_time": 375,
+            "text": "standing, taking off jacket",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 380,
+            "timestamp": 385,
+            "end_time": 394,
+            "text": "lying",
+            "flag": 0
+        }
+    ]
+}

@@ -1,0 +1,140 @@
+{
+    "xh3-2": [
+        {
+            "t1_caption": "",
+            "start_time": 3.0,
+            "timestamp": 10.0,
+            "end_time": 14.0,
+            "text": "standing, drinking",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 13.0,
+            "timestamp": 26.0,
+            "end_time": 36.0,
+            "text": "sitting, using a laptop",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 35.0,
+            "timestamp": 42.0,
+            "end_time": 46.0,
+            "text": "sitting, writing",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 45.0,
+            "timestamp": 51.0,
+            "end_time": 67.0,
+            "text": "sitting, using a phone",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 66.0,
+            "timestamp": 71.0,
+            "end_time": 76.0,
+            "text": "sitting, drinking",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 75.0,
+            "timestamp": 83.0,
+            "end_time": 87.0,
+            "text": "sitting, headache",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 86.0,
+            "timestamp": 93.0,
+            "end_time": 96.0,
+            "text": "standing, reaching elevated objects",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 95.0,
+            "timestamp": 107.0,
+            "end_time": 111.0,
+            "text": "standing, putting on a jacket",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 110.0,
+            "timestamp": 117.0,
+            "end_time": 118.0,
+            "text": "standing, taking off jacket",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 117.0,
+            "timestamp": 133.0,
+            "end_time": 136.0,
+            "text": "sitting, writing",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 135.0,
+            "timestamp": 140.0,
+            "end_time": 147.0,
+            "text": "sitting, drinking",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 146.0,
+            "timestamp": 154.0,
+            "end_time": 161.0,
+            "text": "sitting, using a phone",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 160.0,
+            "timestamp": 165.0,
+            "end_time": 167.0,
+            "text": "standing, reaching elevated objects",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 166.0,
+            "timestamp": 175.0,
+            "end_time": 181.0,
+            "text": "standing, putting on a jacket",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 180.0,
+            "timestamp": 189.0,
+            "end_time": 194.0,
+            "text": "standing, drinking",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 193.0,
+            "timestamp": 206.0,
+            "end_time": 209.0,
+            "text": "sitting, using a phone",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 208.0,
+            "timestamp": 216.0,
+            "end_time": 221.0,
+            "text": "sitting, taking off jacket",
+            "flag": 0
+        }
+    ]
+}

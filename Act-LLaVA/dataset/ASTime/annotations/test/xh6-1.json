@@ -1,0 +1,188 @@
+{
+    "xh6-1": [
+        {
+            "t1_caption": "",
+            "start_time": 5.0,
+            "timestamp": 11.0,
+            "end_time": 13.0,
+            "text": "standing, putting on a jacket",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 12.0,
+            "timestamp": 25.0,
+            "end_time": 28.0,
+            "text": "sitting, pouring",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 27.0,
+            "timestamp": 34.0,
+            "end_time": 38.0,
+            "text": "sitting, drinking",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 37.0,
+            "timestamp": 45.0,
+            "end_time": 47.0,
+            "text": "lying",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 46.0,
+            "timestamp": 52.0,
+            "end_time": 57.0,
+            "text": "lying, using a phone",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 56.0,
+            "timestamp": 64.0,
+            "end_time": 77.0,
+            "text": "sitting, eating",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 100.0,
+            "timestamp": 104.0,
+            "end_time": 110.0,
+            "text": "sitting, using a phone",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 109.0,
+            "timestamp": 116.0,
+            "end_time": 127.0,
+            "text": "sitting, reading",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 126.0,
+            "timestamp": 137.0,
+            "end_time": 138.0,
+            "text": "sitting, pouring",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 137.0,
+            "timestamp": 148.0,
+            "end_time": 150.0,
+            "text": "sitting, drinking",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 149.0,
+            "timestamp": 155.0,
+            "end_time": 158.0,
+            "text": "sitting, eating",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 157.0,
+            "timestamp": 161.0,
+            "end_time": 172.0,
+            "text": "lying, eating",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 171.0,
+            "timestamp": 181.0,
+            "end_time": 189.0,
+            "text": "sitting, writing",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 188.0,
+            "timestamp": 192.0,
+            "end_time": 195.0,
+            "text": "sitting, drinking",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 194.0,
+            "timestamp": 200.0,
+            "end_time": 204.0,
+            "text": "sitting, using a phone",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 203.0,
+            "timestamp": 206.0,
+            "end_time": 210.0,
+            "text": "standing, using a phone",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 209.0,
+            "timestamp": 214.0,
+            "end_time": 216.0,
+            "text": "standing, taking off jacket",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 215.0,
+            "timestamp": 224.0,
+            "end_time": 232.0,
+            "text": "standing, reading",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 231.0,
+            "timestamp": 236.0,
+            "end_time": 239.0,
+            "text": "standing, drinking",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 238.0,
+            "timestamp": 244.0,
+            "end_time": 257.0,
+            "text": "standing, eating",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 256.0,
+            "timestamp": 264.0,
+            "end_time": 271.0,
+            "text": "lying, reading",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 270.0,
+            "timestamp": 280.0,
+            "end_time": 282.0,
+            "text": "standing, putting on a jacket",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 281.0,
+            "timestamp": 286.0,
+            "end_time": 288.0,
+            "text": "standing, drinking",
+            "flag": 0
+        }
+    ]
+}

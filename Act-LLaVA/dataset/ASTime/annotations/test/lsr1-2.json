@@ -1,0 +1,52 @@
+{
+    "lsr1-2": [
+        {
+            "t1_caption": "",
+            "start_time": 0.5,
+            "timestamp": 3.0,
+            "end_time": 12.5,
+            "text": "sitting, using a laptop",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 14.0,
+            "timestamp": 18.0,
+            "end_time": 28.0,
+            "text": "sitting, writing",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 30.0,
+            "timestamp": 33.0,
+            "end_time": 42.0,
+            "text": "standing, reaching elevated objects",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 43.0,
+            "timestamp": 45.0,
+            "end_time": 55.0,
+            "text": "standing, using a phone",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 57.0,
+            "timestamp": 61.0,
+            "end_time": 71.0,
+            "text": "sitting, writing",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 73.0,
+            "timestamp": 75.5,
+            "end_time": 86.0,
+            "text": "sitting, using a laptop",
+            "flag": 0
+        }
+    ]
+}

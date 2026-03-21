@@ -1,0 +1,60 @@
+{
+    "lsr2-2": [
+        {
+            "t1_caption": "",
+            "start_time": 5.0,
+            "timestamp": 9.0,
+            "end_time": 27.0,
+            "text": "sitting, reading",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 29.0,
+            "timestamp": 32.0,
+            "end_time": 43.0,
+            "text": "lying",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 45.0,
+            "timestamp": 49.0,
+            "end_time": 58.0,
+            "text": "sitting, drinking",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 63.0,
+            "timestamp": 65.0,
+            "end_time": 82.0,
+            "text": "sitting, using a phone",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 84.0,
+            "timestamp": 88.0,
+            "end_time": 95.0,
+            "text": "sitting, reading",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 97.0,
+            "timestamp": 100.5,
+            "end_time": 118.0,
+            "text": "lying, reading",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 122.0,
+            "timestamp": 125.0,
+            "end_time": 144.0,
+            "text": "lying, using a phone",
+            "flag": 0
+        }
+    ]
+}

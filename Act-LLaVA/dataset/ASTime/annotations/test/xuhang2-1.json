@@ -1,0 +1,108 @@
+{
+    "xuhang2-1": [
+        {
+            "t1_caption": "",
+            "start_time": 7.0,
+            "timestamp": 13.0,
+            "end_time": 23.0,
+            "text": "sitting, using a phone",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 22.0,
+            "timestamp": 32.0,
+            "end_time": 39.0,
+            "text": "sitting, reading",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 38.0,
+            "timestamp": 45.0,
+            "end_time": 48.0,
+            "text": "sitting, drinking",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 47.0,
+            "timestamp": 55.0,
+            "end_time": 68.0,
+            "text": "sitting, using a laptop",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 67.0,
+            "timestamp": 71.0,
+            "end_time": 75.0,
+            "text": "lying",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 74.0,
+            "timestamp": 82.0,
+            "end_time": 85.0,
+            "text": "sitting",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 84.0,
+            "timestamp": 89.0,
+            "end_time": 99.0,
+            "text": "sitting, writing",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 98.0,
+            "timestamp": 103.0,
+            "end_time": 118.0,
+            "text": "sitting, using a laptop",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 117.0,
+            "timestamp": 123.0,
+            "end_time": 131.0,
+            "text": "sitting, using a phone",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 130.0,
+            "timestamp": 135.0,
+            "end_time": 141.0,
+            "text": "lying, using a phone",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 140.0,
+            "timestamp": 149.0,
+            "end_time": 151.0,
+            "text": "standing",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 150.0,
+            "timestamp": 157.0,
+            "end_time": 158.0,
+            "text": "sitting, drinking",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 157.0,
+            "timestamp": 168.0,
+            "end_time": 179.0,
+            "text": "sitting, reading",
+            "flag": 0
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "lsr7-2": [
+        {
+            "t1_caption": "",
+            "start_time": 6.9,
+            "timestamp": 9.36,
+            "end_time": 26.73,
+            "text": "standing, using a phone",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 31.98,
+            "timestamp": 35.74,
+            "end_time": 46.38,
+            "text": "standing, pouring",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 52.23,
+            "timestamp": 56.4,
+            "end_time": 72.05,
+            "text": "standing, reading",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 79.69,
+            "timestamp": 81.44,
+            "end_time": 87.21,
+            "text": "standing, picking up",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 93.96,
+            "timestamp": 99.16,
+            "end_time": 109.4,
+            "text": "standing, drinking",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 116.61,
+            "timestamp": 119.26,
+            "end_time": 129.95,
+            "text": "standing, reading",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 133.47,
+            "timestamp": 136.31,
+            "end_time": 150.84,
+            "text": "standing, headache",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 157.33,
+            "timestamp": 161.58,
+            "end_time": 176.42,
+            "text": "sitting, headache",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 179.63,
+            "timestamp": 183.31,
+            "end_time": 201.84,
+            "text": "sitting, using a laptop",
+            "flag": 0
+        }
+    ]
+}

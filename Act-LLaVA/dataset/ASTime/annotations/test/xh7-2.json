@@ -1,0 +1,324 @@
+{
+    "xh7-2": [
+        {
+            "t1_caption": "",
+            "start_time": 4.0,
+            "timestamp": 7.0,
+            "end_time": 8.0,
+            "text": "standing, picking up",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 7.0,
+            "timestamp": 13.0,
+            "end_time": 15.0,
+            "text": "standing, reaching elevated objects",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 14.0,
+            "timestamp": 23.0,
+            "end_time": 26.0,
+            "text": "standing, picking up",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 24.0,
+            "timestamp": 33.0,
+            "end_time": 36.0,
+            "text": "standing, pouring",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 35.0,
+            "timestamp": 45.0,
+            "end_time": 50.0,
+            "text": "standing, carrying heavy objects",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 49.0,
+            "timestamp": 58.0,
+            "end_time": 60.0,
+            "text": "standing, picking up",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 67.0,
+            "timestamp": 71.0,
+            "end_time": 75.0,
+            "text": "standing, carrying heavy objects",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 74.0,
+            "timestamp": 85.0,
+            "end_time": 91.0,
+            "text": "lying, falling",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 90.0,
+            "timestamp": 100.0,
+            "end_time": 109.0,
+            "text": "standing, stomachache",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 108.0,
+            "timestamp": 117.0,
+            "end_time": 130.0,
+            "text": "lying",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 129.0,
+            "timestamp": 137.0,
+            "end_time": 149.0,
+            "text": "sitting, reading",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 148.0,
+            "timestamp": 156.0,
+            "end_time": 158.0,
+            "text": "sitting, eating",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 157.0,
+            "timestamp": 160.0,
+            "end_time": 172.0,
+            "text": "sitting, using a phone, eating",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 171.0,
+            "timestamp": 180.0,
+            "end_time": 182.0,
+            "text": "sitting, eating",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 181.0,
+            "timestamp": 189.0,
+            "end_time": 205.0,
+            "text": "lying, eating",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 204.0,
+            "timestamp": 213.0,
+            "end_time": 217.0,
+            "text": "sitting, pouring",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 216.0,
+            "timestamp": 233.0,
+            "end_time": 238.0,
+            "text": "standing, carrying heavy objects",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 237.0,
+            "timestamp": 245.0,
+            "end_time": 254.0,
+            "text": "standing, headache",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 253.0,
+            "timestamp": 256.0,
+            "end_time": 282.0,
+            "text": "sitting, headache",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 281.0,
+            "timestamp": 289.0,
+            "end_time": 293.0,
+            "text": "sitting, pouring",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 292.0,
+            "timestamp": 306.0,
+            "end_time": 311.0,
+            "text": "standing, carrying heavy objects",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 310.0,
+            "timestamp": 321.0,
+            "end_time": 334.0,
+            "text": "lying, falling",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 333.0,
+            "timestamp": 342.0,
+            "end_time": 344.0,
+            "text": "standing, picking up",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 343.0,
+            "timestamp": 354.0,
+            "end_time": 363.0,
+            "text": "standing, reaching elevated objects",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 362.0,
+            "timestamp": 369.0,
+            "end_time": 373.0,
+            "text": "standing, picking up",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 372.0,
+            "timestamp": 382.0,
+            "end_time": 397.0,
+            "text": "standing, eating",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 396.0,
+            "timestamp": 408.0,
+            "end_time": 412.0,
+            "text": "standing, carrying heavy objects",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 411.0,
+            "timestamp": 423.0,
+            "end_time": 433.0,
+            "text": "lying, falling",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 432.0,
+            "timestamp": 441.0,
+            "end_time": 444.0,
+            "text": "standing, carrying heavy objects",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 443.0,
+            "timestamp": 449.0,
+            "end_time": 456.0,
+            "text": "standing, reaching elevated objects",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 455.0,
+            "timestamp": 462.0,
+            "end_time": 467.0,
+            "text": "standing, carrying heavy objects",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 466.0,
+            "timestamp": 470.0,
+            "end_time": 479.0,
+            "text": "standing, headache",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 478.0,
+            "timestamp": 481.0,
+            "end_time": 489.0,
+            "text": "sitting, headache",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 488.0,
+            "timestamp": 492.0,
+            "end_time": 505.0,
+            "text": "lying",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 504.0,
+            "timestamp": 513.0,
+            "end_time": 516.0,
+            "text": "standing, carrying heavy objects",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 524.0,
+            "timestamp": 528.0,
+            "end_time": 539.0,
+            "text": "lying, falling",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 538.0,
+            "timestamp": 547.0,
+            "end_time": 550.0,
+            "text": "standing, picking up",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 560.0,
+            "timestamp": 565.0,
+            "end_time": 573.0,
+            "text": "lying, falling",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 572.0,
+            "timestamp": 585.0,
+            "end_time": 605.0,
+            "text": "sitting, eating",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 604.0,
+            "timestamp": 612.0,
+            "end_time": 620.0,
+            "text": "sitting, pouring",
+            "flag": 0
+        }
+    ]
+}

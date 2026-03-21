@@ -1,0 +1,84 @@
+{
+    "lsr9-1": [
+        {
+            "t1_caption": "",
+            "start_time": 6.51,
+            "timestamp": 9.43,
+            "end_time": 19.3,
+            "text": "lying, reading",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 23.55,
+            "timestamp": 35.02,
+            "end_time": 47.4,
+            "text": "sitting, eating",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 52.54,
+            "timestamp": 55.92,
+            "end_time": 60.37,
+            "text": "standing, drinking",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 65.2,
+            "timestamp": 68.64,
+            "end_time": 80.13,
+            "text": "sitting, using a phone",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 84.51,
+            "timestamp": 87.46,
+            "end_time": 97.35,
+            "text": "standing, eating",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 101.94,
+            "timestamp": 105.11,
+            "end_time": 112.31,
+            "text": "sitting, pouring",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 118.36,
+            "timestamp": 121.55,
+            "end_time": 131.89,
+            "text": "lying, using a phone",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 136.56,
+            "timestamp": 144.82,
+            "end_time": 214.16,
+            "text": "sitting, using a laptop",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 218.3,
+            "timestamp": 219.84,
+            "end_time": 228.25,
+            "text": "sitting, headache",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 233.76,
+            "timestamp": 237.51,
+            "end_time": 262.4,
+            "text": "sitting, using a phone",
+            "flag": 0
+        }
+    ]
+}

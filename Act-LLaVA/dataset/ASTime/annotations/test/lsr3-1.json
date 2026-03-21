@@ -1,0 +1,132 @@
+{
+    "lsr3-1": [
+        {
+            "t1_caption": "",
+            "start_time": 5.67,
+            "timestamp": 9.33,
+            "end_time": 19.06,
+            "text": "lying, using a phone",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 23.44,
+            "timestamp": 26.86,
+            "end_time": 32.64,
+            "text": "sitting, drinking",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 35.56,
+            "timestamp": 39.57,
+            "end_time": 49.77,
+            "text": "lying",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 53.64,
+            "timestamp": 59.12,
+            "end_time": 67.85,
+            "text": "sitting, reading",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 71.18,
+            "timestamp": 77.44,
+            "end_time": 86.72,
+            "text": "sitting, using a phone",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 91.35,
+            "timestamp": 96.44,
+            "end_time": 107.87,
+            "text": "lying, reading",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 112.49,
+            "timestamp": 117.65,
+            "end_time": 133.53,
+            "text": "sitting, eating",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 137.68,
+            "timestamp": 146.2,
+            "end_time": 156.55,
+            "text": "sitting, reading",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 160.96,
+            "timestamp": 165.54,
+            "end_time": 178.33,
+            "text": "lying, using a phone",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 182.21,
+            "timestamp": 186.24,
+            "end_time": 199.27,
+            "text": "sitting, using a phone",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 204.09,
+            "timestamp": 208.07,
+            "end_time": 220.17,
+            "text": "sitting, eating",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 223.97,
+            "timestamp": 228.15,
+            "end_time": 235.3,
+            "text": "lying",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 240.98,
+            "timestamp": 246.02,
+            "end_time": 254.4,
+            "text": "lying, reading",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 258.72,
+            "timestamp": 263.42,
+            "end_time": 270.43,
+            "text": "sitting, drinking",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 276.67,
+            "timestamp": 280.61,
+            "end_time": 288.41,
+            "text": "sitting, eating",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 294.59,
+            "timestamp": 300.0,
+            "end_time": 307.53,
+            "text": "lying, using a phone",
+            "flag": 0
+        }
+    ]
+}

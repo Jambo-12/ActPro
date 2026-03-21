@@ -1,0 +1,148 @@
+{
+    "xh5-1": [
+        {
+            "t1_caption": "",
+            "start_time": 4.0,
+            "timestamp": 11.0,
+            "end_time": 14.0,
+            "text": "standing, drinking",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 13.0,
+            "timestamp": 22.0,
+            "end_time": 29.0,
+            "text": "standing, washing",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 28.0,
+            "timestamp": 36.0,
+            "end_time": 39.0,
+            "text": "standing, reaching elevated objects",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 38.0,
+            "timestamp": 44.0,
+            "end_time": 49.0,
+            "text": "standing, operating a microwave",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 48.0,
+            "timestamp": 59.0,
+            "end_time": 62.0,
+            "text": "standing, pouring",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 61.0,
+            "timestamp": 67.0,
+            "end_time": 69.0,
+            "text": "standing, drinking",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 68.0,
+            "timestamp": 74.0,
+            "end_time": 77.0,
+            "text": "standing, washing",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 85.0,
+            "timestamp": 91.0,
+            "end_time": 100.0,
+            "text": "standing, using a phone",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 99.0,
+            "timestamp": 110.0,
+            "end_time": 115.0,
+            "text": "standing, operating a microwave",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 114.0,
+            "timestamp": 124.0,
+            "end_time": 126.0,
+            "text": "standing, drinking",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 125.0,
+            "timestamp": 134.0,
+            "end_time": 145.0,
+            "text": "standing, washing",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 144.0,
+            "timestamp": 153.0,
+            "end_time": 159.0,
+            "text": "standing, operating a microwave",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 158.0,
+            "timestamp": 167.0,
+            "end_time": 174.0,
+            "text": "standing, washing",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 173.0,
+            "timestamp": 183.0,
+            "end_time": 186.0,
+            "text": "standing, pouring",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 185.0,
+            "timestamp": 191.0,
+            "end_time": 194.0,
+            "text": "standing, drinking",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 205.0,
+            "timestamp": 208.0,
+            "end_time": 210.0,
+            "text": "standing, eating",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 218.0,
+            "timestamp": 224.0,
+            "end_time": 226.0,
+            "text": "standing, operating a microwave",
+            "flag": 0
+        },
+        {
+            "t1_caption": "",
+            "start_time": 225.0,
+            "timestamp": 230.0,
+            "end_time": 234.0,
+            "text": "standing, reaching elevated objects",
+            "flag": 0
+        }
+    ]
+}
