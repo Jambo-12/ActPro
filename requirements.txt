@@ -1,0 +1,23 @@
+# Install torch / torchvision / torchaudio separately for your CUDA setup.
+# Example:
+# conda install -y pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+#
+# The Act-LLaVA code also imports an external `llava` package/codebase,
+# which is not included in this repository and may need to be installed separately.
+# flash-attn is recommended but is kept out of this file because it often
+# requires environment-specific installation.
+
+transformers
+accelerate
+deepspeed
+peft
+editdistance
+Levenshtein
+tensorboard
+gradio
+moviepy
+submitit
+openai
+tqdm
+opencv-python
+av
