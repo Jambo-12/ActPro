@@ -2,7 +2,7 @@
 
 This repository contains the experimental code for activity-driven proactive agents in smart home environments. The codebase consists of two main parts:
 
-- `Act-LLaVA`: video-based fine-grained action understanding and temporal modeling
+- `Act-LLaVA`: robotic-perspective activity captioning model for continuous streaming videos
 - `HomeActEval`: habit induction, context retrieval, proactive decision generation, and evaluation
 
 The overall goal is to study when and how a smart home agent should intervene according to observed activities, temporal context, household rules, and user habits.
