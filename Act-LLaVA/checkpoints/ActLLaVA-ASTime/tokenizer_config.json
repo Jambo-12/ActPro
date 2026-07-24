@@ -1,0 +1,60 @@
+{
+  "add_prefix_space": false,
+  "added_tokens_decoder": {
+    "151643": {
+      "content": "<|endoftext|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "151644": {
+      "content": "<|im_start|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "151645": {
+      "content": "<|im_end|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "151646": {
+      "content": "<image>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "151647": {
+      "content": "<v>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    }
+  },
+  "additional_special_tokens": [
+    "<v>"
+  ],
+  "bos_token": "<|im_start|>",
+  "chat_template": "{% if messages[0]['role'] == 'system' %}{{ bos_token + messages[0]['content'] + '\n' }}{% set messages = messages[1:] %}{% endif %}{% for message in messages %}{% if message['role'] == 'user' %}{% if add_stream_query_prompt %}{{ ']\nUser: ' + message['content'] }}{% else %}{{ '\nUser: ' + message['content'] }}{% endif %}{% elif message['role'] == 'assistant' %}{{ '\nAssistant: '  + message['content'] + eos_token }}{% elif message['role'] == 'stream' and message['num_frames'] > 0: %}{{ '\n[' + ','.join([10 * '<v>'] * message['num_frames']) + ']' }}{% endif %}{% endfor %}{% if add_generation_prompt %}{{ '\nAssistant:' }}{% elif add_stream_prompt %}{{ '\n[' }}{% elif add_stream_generation_prompt %}{{ ']\nAssistant:' }}{% endif %}",
+  "clean_up_tokenization_spaces": false,
+  "eos_token": "<|im_end|>",
+  "errors": "replace",
+  "model_max_length": 32768,
+  "pad_token": "<|im_end|>",
+  "padding_side": "left",
+  "processor_class": "LlavaProcessor",
+  "split_special_tokens": false,
+  "tokenizer_class": "Qwen2Tokenizer",
+  "unk_token": null
+}

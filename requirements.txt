@@ -1,0 +1,51 @@
+# Tested with Python 3.10, torch==2.1.2, torchvision==0.16.2, CUDA 12.1,
+# and the llavaNEXT environment used for the released ActPro checkpoints.
+#
+# Install PyTorch separately for your CUDA setup before this file, for example:
+#   conda install -y pytorch==2.1.2 torchvision==0.16.2 torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+#
+# The code imports the external LLaVA-NeXT / LLaVA-OneVision package as `llava`.
+# This release was tested against the pinned commit below.
+git+https://github.com/LLaVA-VL/LLaVA-NeXT.git@79ef45a6d8b89b92d7a8525f077c3a3a9894a87d#egg=llava
+
+# The llavaNEXT environment used a Transformers git build compatible with the
+# LLaVA-NeXT commit above.
+transformers @ git+https://github.com/huggingface/transformers.git@1c39974a4c4036fd641bc1191cc32799f85715a4
+tokenizers==0.15.2
+
+accelerate==1.12.0
+deepspeed==0.14.4
+peft==0.4.0
+safetensors==0.7.0
+huggingface-hub==0.36.0
+datasets==2.16.1
+sentencepiece==0.1.99
+protobuf==6.33.1
+
+numpy==1.26.1
+opencv-python==4.11.0.86
+av==16.0.1
+decord==0.6.0
+moviepy==2.2.1
+pillow==11.3.0
+
+submitit==1.5.4
+ninja==1.13.0
+tensorboard==2.20.0
+tqdm==4.67.1
+editdistance==0.8.1
+Levenshtein==0.27.3
+openai==2.44.0
+
+einops==0.6.1
+einops-exts==0.0.4
+timm==1.0.22
+open_clip_torch==3.2.0
+shortuuid==1.0.13
+tyro==0.9.35
+ftfy==6.3.1
+regex==2025.11.3
+requests==2.32.5
+PyYAML==6.0.3
+scikit-learn==1.2.2
+matplotlib==3.8.4

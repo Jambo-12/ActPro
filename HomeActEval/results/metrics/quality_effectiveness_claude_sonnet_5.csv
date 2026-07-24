@@ -1,0 +1,11 @@
+model,model_display,setting,setting_display,records,required_cases,TP,FP,TN,FN,errors,correctness,contextual_relevance,clarity,overall_effectiveness
+qwen3.6-max,Qwen3.6-Max,raw_logs_context,w/o KB,400,240,118,0,160,122,0,40.67,39.21,43.34,64.64
+qwen_plus,Qwen-Plus,raw_logs_context,w/o KB,400,240,132,1,159,108,0,45.06,43.2,47.54,67.02
+deepseek_v3,DeepSeek-V3,raw_logs_context,w/o KB,400,240,126,0,160,114,0,42.26,40.56,45.32,65.63
+deepseek_r1,DeepSeek-R1,raw_logs_context,w/o KB,400,240,111,1,159,129,0,38.44,37.02,40.12,62.96
+llama4_scout,Llama4-Scout,raw_logs_context,w/o KB,400,240,175,28,132,65,0,51.25,48.98,59.38,67.55
+qwen3.6-max,Qwen3.6-Max,full_kb,w/ KB,400,240,180,4,156,60,0,65.73,63.92,65.9,78.46
+qwen_plus,Qwen-Plus,full_kb,w/ KB,400,240,207,8,152,33,0,69.46,68.23,72.8,80.81
+deepseek_v3,DeepSeek-V3,full_kb,w/ KB,400,240,217,13,147,23,0,72.01,70.4,76.83,81.84
+deepseek_r1,DeepSeek-R1,full_kb,w/ KB,400,240,204,20,140,36,0,67.59,66.49,71.28,77.72
+llama4_scout,Llama4-Scout,full_kb,w/ KB,400,240,224,44,116,16,0,69.12,66.4,75.51,75.41

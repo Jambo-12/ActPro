@@ -1,0 +1,71 @@
+\begin{figure*}[!t]
+\centering
+\begin{promptbox}{System Prompt for Proactive Response Quality Evaluation}
+
+\noindent\textbf{Role:} You are an evaluator of proactive smart-home response quality. Judge whether one generated response is correct, contextually grounded, and clear. \\
+\textbf{Input:} The current event, the reference rationale, the agent output, the agent setting, and the relevant static-rule / habit snippets. \\
+\textbf{Constraint:} Use only the provided information. Do not infer extra rules, habits, devices, user states, or deadlines.
+
+\vspace{0.35em}
+\noindent\textbf{Current Event}
+\begin{itemize}
+    \item \textbf{Time:} \texttt{<time>}
+    \item \textbf{Location:} \texttt{<location>}
+    \item \textbf{Event:} \texttt{<event>}
+\end{itemize}
+
+\noindent\textbf{Ground-Truth Reference} \textit{(benchmark target and rationale)}
+\begin{itemize}
+    \item \textbf{Required Decision:} proactive interaction required / no proactive interaction required
+    \item \textbf{Benchmark Category:} \texttt{<category>}
+    \item \textbf{Reference Rationale:} \texttt{<reference\_rationale>}
+\end{itemize}
+
+\noindent\textbf{Agent Output} \textit{(the response being evaluated)}
+\begin{itemize}
+    \item \textbf{proactive:} true
+    \item \textbf{proposed\_action:} \texttt{<proposed\_action>}
+    \item \textbf{decision\_basis:} \texttt{<decision\_basis>}
+\end{itemize}
+
+\noindent\textbf{Relevant Evidence} \textit{(retrieved IDs and snippets shown to the judge)}
+\begin{itemize}
+    \item \textbf{Reference IDs:} \texttt{<reference\_ids>}
+    \item \textbf{Missing IDs:} \texttt{<missing\_refs>}
+    \item \textbf{Static-rule snippets:} \texttt{<static\_snippets>}
+    \item \textbf{Habit snippets:} \texttt{<habit\_snippets>}
+\end{itemize}
+
+\vspace{0.35em}
+\noindent\textbf{Scoring Principles}
+\begin{enumerate}
+    \item \textbf{Correctness:} alignment with the reference rationale, the current event, and the relevant snippets.
+    \item \textbf{Contextual Relevance:} use of the specific time, location, and observed activity in the response.
+    \item \textbf{Clarity:} whether the user-facing action is concise, understandable, polite, and actionable.
+    \item \textbf{Grounding:} give high scores only when the response is well supported by the provided evidence; penalize generic, unsupported, or hallucinated claims.
+\end{enumerate}
+
+\vspace{0.35em}
+\noindent\textbf{Case Notes}
+\begin{itemize}
+    \item For intervention-required cases, reward responses that identify the trigger and provide a concrete next step.
+    \item For no-intervention cases, penalize unnecessary interruptions, especially when they invent a hazard, rule, habit, deadline, or user need.
+\end{itemize}
+
+\vspace{0.35em}
+\noindent\textbf{Output Format (Strict JSON)}
+\vspace{0.35em}
+\\ \texttt{\hspace*{1.5em}\{}
+\\ \texttt{\hspace*{3.0em}"rationale\_match": "exact \textbar{} partial \textbar{} weak \textbar{} none \textbar{} not\_applicable",}
+\\ \texttt{\hspace*{3.0em}"basis\_grounding": "supported \textbar{} partially\_supported \textbar{} unsupported \textbar{} missing \textbar{} not\_applicable",}
+\\ \texttt{\hspace*{3.0em}"missing\_key\_elements": ["short labels for omitted trigger details, or []"],}
+\\ \texttt{\hspace*{3.0em}"reasoning": "Briefly justify the scores using the reference rationale, proposed\_action, decision\_basis, and relevant snippets.",}
+\\ \texttt{\hspace*{3.0em}"correctness": <integer 0-100>,}
+\\ \texttt{\hspace*{3.0em}"contextual\_relevance": <integer 0-100>,}
+\\ \texttt{\hspace*{3.0em}"clarity": <integer 0-100>}
+\\ \texttt{\hspace*{1.5em}\}}
+
+\end{promptbox}
+\caption{System prompt for proactive response quality evaluation. The judge scores correctness, contextual relevance, and clarity from the current event, reference rationale, and retrieved evidence; FN/TN cases are scored automatically by the evaluation pipeline.}
+\label{fig:quality_prompt}
+\end{figure*}

@@ -1,0 +1,11 @@
+model,model_display,setting,setting_display,records,successes,errors,retrieval_mean_ms,retrieval_median_ms,retrieval_p95_ms,prompt_build_mean_ms,prompt_build_median_ms,prompt_build_p95_ms,llm_request_mean_ms,llm_request_median_ms,llm_request_p95_ms,parse_mean_ms,parse_median_ms,parse_p95_ms,total_decision_mean_ms,total_decision_median_ms,total_decision_p95_ms,total_decision_std_ms
+qwen3.6-max,Qwen3.6-Max,raw_logs_context,w/o KB,400,400,0,0.0,0.0,0.0,0.03,0.03,0.05,2021.44,1792.39,3352.69,0.15,0.15,0.2,2021.64,1792.58,3352.93,690.95
+qwen3.6-max,Qwen3.6-Max,full_kb,w/ KB,400,400,0,5.18,4.36,8.96,0.03,0.03,0.04,2190.47,2185.42,3382.68,0.16,0.16,0.21,2195.85,2190.14,3389.25,694.59
+qwen_plus,Qwen-Plus,raw_logs_context,w/o KB,400,400,0,0.0,0.0,0.0,0.03,0.03,0.05,1423.19,1151.8,2468.69,0.17,0.16,0.21,1423.4,1152.01,2468.92,515.43
+qwen_plus,Qwen-Plus,full_kb,w/ KB,400,400,0,5.65,4.47,10.98,0.04,0.03,0.07,1627.68,1601.99,2743.55,0.18,0.17,0.24,1633.56,1607.59,2747.86,601.97
+deepseek_v3,DeepSeek-V3,raw_logs_context,w/o KB,400,400,0,0.0,0.0,0.0,0.04,0.03,0.06,959.47,889.82,1478.21,0.16,0.16,0.21,959.68,889.99,1478.51,279.41
+deepseek_v3,DeepSeek-V3,full_kb,w/ KB,400,400,0,5.96,4.72,11.37,0.04,0.03,0.1,1114.16,1112.54,1699.69,0.18,0.17,0.27,1120.35,1118.3,1712.2,328.0
+deepseek_r1,DeepSeek-R1,raw_logs_context,w/o KB,400,400,0,0.0,0.0,0.0,0.03,0.03,0.06,3942.76,3095.13,8717.39,0.16,0.16,0.2,3942.96,3095.29,8717.57,2546.63
+deepseek_r1,DeepSeek-R1,full_kb,w/ KB,400,400,0,6.0,4.6,11.54,0.04,0.03,0.11,8420.41,6992.67,18096.71,0.17,0.17,0.24,8426.63,6999.87,18101.01,5325.94
+llama4_scout,Llama4-Scout,raw_logs_context,w/o KB,400,400,0,0.0,0.0,0.0,0.03,0.03,0.05,2573.29,2529.25,4679.82,0.17,0.16,0.23,2573.49,2529.47,4680.0,1233.04
+llama4_scout,Llama4-Scout,full_kb,w/ KB,400,400,0,5.7,4.52,11.12,0.04,0.03,0.06,2340.18,1892.31,6171.82,0.17,0.17,0.24,2346.1,1897.92,6176.11,1700.43

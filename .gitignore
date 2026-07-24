@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Editors and OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Logs and local outputs
+*.log
+nohup.out
+output/
+outputs/
+runs/
+wandb/
+
+# Model weights and generated tensors
+*.bin
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.onnx
+
+# Model weights are hosted separately, for example on Hugging Face. Keep local
+# checkpoint files out of the GitHub code repository.
+!Act-LLaVA/checkpoints/
+!Act-LLaVA/checkpoints/ActLLaVA-ASTime/
+!Act-LLaVA/checkpoints/ActLLaVA-PKUMMD/
+
+# Datasets and generated media/features
+Act-LLaVA/dataset/**/videos*/
+Act-LLaVA/dataset/**/features*/
+Act-LLaVA/dataset/**/Features*/
+Act-LLaVA/dataset/**/baseline_captions*/
+Act-LLaVA/dataset/**/results*/
+Act-LLaVA/dataset/**/*gpt*cache*
+Act-LLaVA/dataset/**/*gpt*eval*
+Act-LLaVA/huggingface/
+Act-LLaVA/ffmpeg/
+
+# Large media by default; add explicit exceptions for safe demo assets later.
+*.mp4
+*.avi
+*.mov
+*.MOV
+*.mkv
+*.webm

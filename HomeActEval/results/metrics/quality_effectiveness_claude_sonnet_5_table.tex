@@ -1,0 +1,45 @@
+\begin{table}[t]
+\centering
+\caption{Quantitative results of the proactive effectiveness assessment evaluated by Claude-Sonnet-5.}
+\label{tab:end-to-end-results-claude-control}
+
+\resizebox{\linewidth}{!}{
+\begin{tabular}{ll ccc c}
+\toprule
+\multirow{2}{*}{\textbf{Model}} & \multirow{2}{*}{\textbf{Setting}} & \multicolumn{3}{c}{\textbf{Response Quality}} & \multirow{2}{*}{\textbf{Overall Effectiveness}} \\
+\cmidrule(lr){3-5}
+ & & Correctness & Contextual & Clarity & \\
+\midrule
+% --- Qwen3.6-Max ---
+\multirow{2}{*}{Qwen3.6-Max}
+ & w/o KB & 40.67 & 39.21 & 43.34 & 64.64 \\
+ & w/ KB & \textbf{65.73} & \textbf{63.92} & \textbf{65.90} & \textbf{78.46}\inc{13.82} \\
+\cmidrule(lr){1-6}
+
+% --- Qwen-Plus ---
+\multirow{2}{*}{Qwen-Plus \cite{yang2025qwen3}}
+ & w/o KB & 45.06 & 43.20 & 47.54 & 67.02 \\
+ & w/ KB & \textbf{69.46} & \textbf{68.23} & \textbf{72.80} & \textbf{80.81}\inc{13.79} \\
+\cmidrule(lr){1-6}
+
+% --- DeepSeek-V3 ---
+\multirow{2}{*}{DeepSeek-V3 \cite{liu2024deepseek}}
+ & w/o KB & 42.26 & 40.56 & 45.32 & 65.63 \\
+ & w/ KB & \textbf{72.01} & \textbf{70.40} & \textbf{76.83} & \textbf{81.84}\inc{16.21} \\
+\cmidrule(lr){1-6}
+
+% --- DeepSeek-R1 ---
+\multirow{2}{*}{DeepSeek-R1 \cite{guo2025deepseek}}
+ & w/o KB & 38.44 & 37.02 & 40.12 & 62.96 \\
+ & w/ KB & \textbf{67.59} & \textbf{66.49} & \textbf{71.28} & \textbf{77.72}\inc{14.76} \\
+\cmidrule(lr){1-6}
+
+% --- Llama4-Scout ---
+\multirow{2}{*}{Llama4-Scout \cite{meta2025llama}}
+ & w/o KB & 51.25 & 48.98 & 59.38 & 67.55 \\
+ & w/ KB & \textbf{69.12} & \textbf{66.40} & \textbf{75.51} & \textbf{75.41}\inc{7.86} \\
+
+\bottomrule
+\end{tabular}
+}
+\end{table}

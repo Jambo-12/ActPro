@@ -1,0 +1,61 @@
+### Recent Raw Activity History
+Recent Day -1 07:12 | bedroom | User wakes up and sits under the light blanket.
+Recent Day -1 07:27 | bedroom | User checks Friday weather and work reminders on the iPad.
+Recent Day -1 07:49 | bathroom | User washes face, brushes hair, and gets ready for the morning.
+Recent Day -1 08:12 | living room | User sits on the mat for a brief morning meditation.
+Recent Day -1 08:33 | kitchen | User eats breakfast with toast, yogurt, and peaches.
+Recent Day -1 08:49 | kitchen | User takes the morning medicine with a small glass of water.
+Recent Day -1 09:11 | kitchen | User makes coffee and starts work with a small mug.
+Recent Day -1 10:22 | study | User does focused reading on the final evaluation notes.
+Recent Day -1 11:31 | study | User trims the Friday research outline and saves the file.
+Recent Day -1 12:20 | kitchen | User eats lunch with rice, cucumber, and leftover tofu.
+Recent Day -1 12:58 | living room | User reads news updates on the tablet.
+Recent Day -1 13:33 | living room | User sorts a few paper notes before work resumes.
+Recent Day -1 14:24 | study | User continues deep work on the analysis draft.
+Recent Day -1 15:34 | study | User rests both wrists beside the desk for a moment.
+Recent Day -1 16:29 | study | User writes a daily summary and leaves a note for Monday.
+Recent Day -1 17:16 | kitchen | User eats sliced fruit and drinks water before dinner prep.
+Recent Day -1 18:29 | kitchen | User starts dinner with greens and rice.
+Recent Day -1 18:53 | kitchen | User eats dinner from a small bowl at the table.
+Recent Day -1 19:09 | outdoor | User carries the trash bag to the outdoor bin.
+Recent Day -1 19:34 | outdoor | User walks the dog along a quiet Friday route.
+Recent Day -1 20:03 | entrance | User wipes the dog's paws with a clean towel.
+Recent Day -1 20:21 | balcony | User feeds the dog and replaces the water in the bowl.
+Recent Day -1 20:49 | kitchen | User reads a saved article at the kitchen table.
+Recent Day -1 21:27 | living room | User plays a short puzzle game on the tablet.
+Recent Day -1 22:25 | all rooms | User completes a bedtime safety check before getting ready.
+Recent Day -1 22:42 | bathroom | User applies nighttime skincare and flosses carefully.
+Recent Day -1 22:55 | bathroom | User brushes teeth and puts the cup back.
+Recent Day -1 23:13 | bedroom | User places the phone and tablet on separate chargers.
+Recent Day -1 23:30 | bedroom | User checks the smartphone once from bed.
+Recent Day -1 23:48 | bedroom | User settles under the sheet and goes to sleep.
+Recent Day 0 08:52 | bedroom | User wakes up later and opens the curtains halfway.
+Recent Day 0 09:09 | bedroom | User checks Saturday weather and errands on the iPad.
+Recent Day 0 09:32 | bathroom | User washes up and does relaxed Saturday grooming.
+Recent Day 0 09:58 | kitchen | User eats breakfast with eggs, toast, and melon.
+Recent Day 0 10:15 | kitchen | User takes medicine with water after the meal.
+Recent Day 0 10:33 | living room | User sits quietly for a late morning meditation.
+Recent Day 0 10:47 | kitchen | User makes a small coffee and drinks it near the window.
+Recent Day 0 11:16 | balcony | User rinses the pet bowls and checks the remaining dog food.
+Recent Day 0 11:44 | living room | User does a light tidy of the sofa area.
+Recent Day 0 12:18 | kitchen | User eats lunch with noodles and a cucumber side dish.
+Recent Day 0 13:02 | living room | User reads weekend news on the tablet.
+Recent Day 0 13:38 | living room | User takes a relaxed afternoon nap on the sofa.
+Recent Day 0 14:21 | bedroom | User folds clean shirts and sets aside a small towel stack.
+Recent Day 0 15:54 | study | User reads a magazine article away from the work computer.
+Recent Day 0 16:41 | living room | User plays a few piano pieces before the evening routine.
+Recent Day 0 17:31 | living room | User does a slow stretch beside the sofa.
+Recent Day 0 18:20 | kitchen | User prepares dinner with tofu, rice, and greens.
+Recent Day 0 18:49 | kitchen | User eats dinner at the kitchen table.
+Recent Day 0 18:58 | outdoor | User carries a small trash bag to the building bin.
+Recent Day 0 19:25 | outdoor | User takes the dog on an easy Saturday walk.
+Recent Day 0 19:56 | entrance | User cleans the dog's paws before unclipping the leash.
+Recent Day 0 20:15 | balcony | User feeds the dog and fills the water dish.
+Recent Day 0 20:48 | kitchen | User drinks chamomile tea while the dishes dry.
+Recent Day 0 21:29 | living room | User talks with family on a short video call.
+Recent Day 0 22:13 | living room | User reads a paperback chapter on the sofa.
+Recent Day 0 23:11 | all rooms | User makes a final bedtime safety check around the apartment.
+Recent Day 0 23:27 | bathroom | User finishes skincare and flosses at the mirror.
+Recent Day 0 23:40 | bathroom | User brushes teeth before heading to bed.
+Recent Day 0 23:50 | bedroom | User plugs the phone and tablet into their chargers.
+Recent Day 0 23:57 | bedroom | User turns away from the phone and falls asleep.

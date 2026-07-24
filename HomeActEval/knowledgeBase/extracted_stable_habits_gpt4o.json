@@ -1,0 +1,272 @@
+[
+  {
+    "rule_id": "H001",
+    "description": "User wakes up and gets out of bed",
+    "time_window": "07:00 - 07:15",
+    "location": "bedroom"
+  },
+  {
+    "rule_id": "H002",
+    "description": "User checks weather and schedule on the iPad",
+    "time_window": "07:15 - 07:30",
+    "location": "bedroom"
+  },
+  {
+    "rule_id": "H003",
+    "description": "User completes morning grooming",
+    "time_window": "07:30 - 07:50",
+    "location": "bathroom"
+  },
+  {
+    "rule_id": "H004",
+    "description": "User meditates quietly in the morning",
+    "time_window": "08:00 - 08:15",
+    "location": "living room"
+  },
+  {
+    "rule_id": "H005",
+    "description": "User eats breakfast",
+    "time_window": "08:30 - 08:40",
+    "location": "kitchen"
+  },
+  {
+    "rule_id": "H006",
+    "description": "User takes morning medicine with water",
+    "time_window": "08:45 - 08:55",
+    "location": "kitchen"
+  },
+  {
+    "rule_id": "H007",
+    "description": "User makes coffee",
+    "time_window": "09:00 - 09:20",
+    "location": "kitchen"
+  },
+  {
+    "rule_id": "H008",
+    "description": "User eats lunch",
+    "time_window": "12:00 - 12:20",
+    "location": "kitchen"
+  },
+  {
+    "rule_id": "H009",
+    "description": "User scans news on the tablet",
+    "time_window": "12:45 - 13:00",
+    "location": "living room"
+  },
+  {
+    "rule_id": "H010",
+    "description": "User rests on the sofa in the afternoon",
+    "time_window": "13:20 - 13:45",
+    "location": "living room"
+  },
+  {
+    "rule_id": "H011",
+    "description": "User writes the daily summary and plans tasks",
+    "time_window": "16:20 - 16:40",
+    "location": "study"
+  },
+  {
+    "rule_id": "H012",
+    "description": "User prepares and eats dinner",
+    "time_window": "18:30 - 19:00",
+    "location": "kitchen"
+  },
+  {
+    "rule_id": "H013",
+    "description": "User takes out the trash",
+    "time_window": "19:00 - 19:10",
+    "location": "outdoor"
+  },
+  {
+    "rule_id": "H014",
+    "description": "User walks the dog",
+    "time_window": "19:20 - 19:40",
+    "location": "outdoor"
+  },
+  {
+    "rule_id": "H015",
+    "description": "User wipes the dog's paws and stores the leash",
+    "time_window": "19:50 - 20:10",
+    "location": "entrance"
+  },
+  {
+    "rule_id": "H016",
+    "description": "User feeds the dog and checks the water bowl",
+    "time_window": "20:10 - 20:30",
+    "location": "balcony"
+  },
+  {
+    "rule_id": "H017",
+    "description": "User checks doors, windows, and lights before bed",
+    "time_window": "22:15 - 22:30",
+    "location": "all rooms"
+  },
+  {
+    "rule_id": "H018",
+    "description": "User performs skincare and flossing",
+    "time_window": "22:30 - 22:50",
+    "location": "bathroom"
+  },
+  {
+    "rule_id": "H019",
+    "description": "User brushes teeth before bed",
+    "time_window": "22:45 - 23:00",
+    "location": "bathroom"
+  },
+  {
+    "rule_id": "H020",
+    "description": "User charges mobile devices on the nightstand",
+    "time_window": "23:00 - 23:10",
+    "location": "bedroom"
+  },
+  {
+    "rule_id": "H021",
+    "description": "User reads briefly on the smartphone in bed",
+    "time_window": "23:15 - 23:30",
+    "location": "bedroom"
+  },
+  {
+    "rule_id": "H022",
+    "description": "User goes to sleep",
+    "time_window": "23:30 - 23:50",
+    "location": "bedroom"
+  },
+  {
+    "rule_id": "H023",
+    "description": "User does light mobility or stretching routine",
+    "time_window": "18:00 - 18:20",
+    "location": "living room"
+  },
+  {
+    "rule_id": "H024",
+    "description": "User drinks herbal tea or warm water in the evening",
+    "time_window": "20:40 - 21:00",
+    "location": "kitchen"
+  },
+  {
+    "rule_id": "H025",
+    "description": "User reviews coding notes during nighttime self-study",
+    "time_window": "21:18 - 21:38",
+    "location": "study"
+  },
+  {
+    "rule_id": "H026",
+    "description": "User attends the weekly video conference",
+    "time_window": "monday 10:02 - 10:11",
+    "location": "study"
+  },
+  {
+    "rule_id": "H027",
+    "description": "User records a weekly blood pressure reading and health note",
+    "time_window": "monday 17:12 - 17:16",
+    "location": "living room"
+  },
+  {
+    "rule_id": "H028",
+    "description": "User waters the balcony plants",
+    "time_window": "friday 08:47 - 09:44",
+    "location": "balcony"
+  },
+  {
+    "rule_id": "H029",
+    "description": "User does light house cleaning in the living room",
+    "time_window": "saturday 11:05 - 11:48",
+    "location": "living room"
+  },
+  {
+    "rule_id": "H030",
+    "description": "User rinses pet bowls and checks dog food supplies",
+    "time_window": "saturday 11:18 - 11:48",
+    "location": "balcony"
+  },
+  {
+    "rule_id": "H031",
+    "description": "User sorts clean laundry and puts items away",
+    "time_window": "saturday 14:21 - 14:36",
+    "location": "bedroom"
+  },
+  {
+    "rule_id": "H032",
+    "description": "User changes the bed sheets and gathers laundry",
+    "time_window": "sunday 10:15 - 11:30",
+    "location": "bedroom"
+  },
+  {
+    "rule_id": "H033",
+    "description": "User reviews weekly personal finances and updates the budget",
+    "time_window": "sunday 15:00 - 15:45",
+    "location": "study"
+  },
+  {
+    "rule_id": "H034",
+    "description": "User writes a short weekly summary note",
+    "time_window": "sunday 16:00 - 16:45",
+    "location": "study"
+  },
+  {
+    "rule_id": "H035",
+    "description": "User talks with family on a video call",
+    "time_window": "saturday 21:19 - 21:34",
+    "location": "living room"
+  },
+  {
+    "rule_id": "H036",
+    "description": "User starts a laundry load with towels",
+    "time_window": "wednesday 09:42 - 09:48",
+    "location": "balcony"
+  },
+  {
+    "rule_id": "H037",
+    "description": "User prepares dinner with vegetables and rice",
+    "time_window": "sunday 18:30 - 19:00",
+    "location": "kitchen"
+  },
+  {
+    "rule_id": "H038",
+    "description": "User feeds the dog and refreshes the water bowl",
+    "time_window": "friday 20:21 - 20:27",
+    "location": "balcony"
+  },
+  {
+    "rule_id": "H039",
+    "description": "User meditates quietly before lunch",
+    "time_window": "sunday 10:30 - 11:00",
+    "location": "living room"
+  },
+  {
+    "rule_id": "H040",
+    "description": "User reviews coding or debugging notes during nighttime self-study",
+    "time_window": "thursday 21:26 - 21:44",
+    "location": "study"
+  },
+  {
+    "rule_id": "H041",
+    "description": "User does gentle stretching on the mat",
+    "time_window": "sunday 17:45 - 18:15",
+    "location": "living room"
+  },
+  {
+    "rule_id": "H042",
+    "description": "User prepares dinner with vegetables, rice, or noodles",
+    "time_window": "monday 18:42 - 18:46",
+    "location": "kitchen"
+  },
+  {
+    "rule_id": "H043",
+    "description": "User carries household trash to the outdoor bins",
+    "time_window": "thursday 18:58 - 19:20",
+    "location": "outdoor"
+  },
+  {
+    "rule_id": "H044",
+    "description": "User drinks warm water or herbal tea",
+    "time_window": "thursday 20:44 - 20:59",
+    "location": "kitchen"
+  },
+  {
+    "rule_id": "H045",
+    "description": "User does deep work or focused reading in the study",
+    "time_window": "weekday 14:00 - 16:00",
+    "location": "study"
+  }
+]
