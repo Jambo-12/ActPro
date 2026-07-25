@@ -52,6 +52,9 @@ Act-LLaVA/dataset/**/*gpt*eval*
 Act-LLaVA/huggingface/
 Act-LLaVA/ffmpeg/
 
+# HomeActEval generated aggregate metrics
+HomeActEval/results/metrics/
+
 # Large media by default; add explicit exceptions for safe demo assets later.
 *.mp4
 *.avi

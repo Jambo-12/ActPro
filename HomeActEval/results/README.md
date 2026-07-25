@@ -45,31 +45,15 @@ retrieval fields. Those fields are written only when explicitly requested with:
 --save-retrieved-context
 ```
 
-## Metrics
+## Generated Metrics
 
-Primary decision metrics:
-
-```text
-metrics/overall_metrics.csv
-metrics/category_metrics.csv
-metrics/structure_audit.csv
-```
-
-Response-quality summaries:
+Precomputed aggregate metrics are not included in this compact release.
+Regenerate them from the released result files with the scripts documented in
+`../README.md`. The generated decision metrics and response-quality summaries
+are written under:
 
 ```text
-metrics/quality_effectiveness.csv
-metrics/quality_effectiveness_latex.md
-metrics/quality_assessment_prompt.tex
-```
-
-Supplementary aggregate summaries for secondary control judges:
-
-```text
-metrics/quality_effectiveness_gemini_2_5_pro.csv
-metrics/quality_effectiveness_claude_sonnet_5.csv
-metrics/gemini_control_analysis.md
-metrics/claude_control_analysis.md
+metrics/
 ```
 
 Latency summaries:

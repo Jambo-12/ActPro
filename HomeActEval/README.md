@@ -233,14 +233,15 @@ reason for the proactive decision, not a long chain of thought.
 
 ## Decision Metrics
 
-Recompute proactive decision metrics from the released result files:
+Precomputed aggregate decision metrics are not included in this compact
+release. Recompute them from the released result files with:
 
 ```bash
 python proactive_code/evalute_proactive.py \
   --output-root results
 ```
 
-This writes:
+This writes generated files under `results/metrics/`:
 
 ```text
 results/metrics/overall_metrics.csv
@@ -271,7 +272,7 @@ python proactive_code/quality_assessment.py \
   --resume
 ```
 
-Summarize the scored files:
+Summarize the scored files when aggregate quality tables are needed:
 
 ```bash
 python proactive_code/result.py \
@@ -279,7 +280,7 @@ python proactive_code/result.py \
   --score-dir quality_score_strict
 ```
 
-The summary files are:
+This writes generated summary files under `results/metrics/`:
 
 ```text
 results/metrics/quality_effectiveness.csv
@@ -307,14 +308,6 @@ results/static_kb/experiment_<model>_static_kb.json
 results/full_kb/experiment_<model>_full_kb.json
 ```
 
-Primary decision metrics:
-
-```text
-results/metrics/overall_metrics.csv
-results/metrics/category_metrics.csv
-results/metrics/structure_audit.csv
-```
-
 GPT strict response-quality judgments:
 
 ```text
@@ -322,17 +315,9 @@ results/quality_score_strict/raw_logs_context/
 results/quality_score_strict/full_kb/
 ```
 
-GPT strict response-quality summaries:
-
-```text
-results/metrics/quality_effectiveness.csv
-results/metrics/quality_effectiveness_latex.md
-results/metrics/quality_assessment_prompt.tex
-```
-
-Small supplementary aggregate summaries for Gemini-2.5-Pro and
-Claude-Sonnet-5 control judges are also included under `results/metrics/`. The
-raw secondary-judge score directories are not included in this compact release.
+Aggregate decision metrics and response-quality summary tables are generated
+artifacts and are not included by default. Regenerate them with the evaluation
+commands above.
 
 ## Latency Artifacts
 
