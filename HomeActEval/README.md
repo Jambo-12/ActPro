@@ -280,12 +280,10 @@ python proactive_code/result.py \
   --score-dir quality_score_strict
 ```
 
-This writes generated summary files under `results/metrics/`:
+This writes generated CSV summary files under `results/metrics/`:
 
 ```text
 results/metrics/quality_effectiveness.csv
-results/metrics/quality_effectiveness_latex.md
-results/metrics/quality_assessment_prompt.tex
 ```
 
 `quality_effectiveness.csv` reports:
@@ -321,12 +319,11 @@ commands above.
 
 ## Latency Artifacts
 
-The released latency profiles and aggregate latency tables are under:
+The released latency profiles and aggregate latency summaries are under:
 
 ```text
 results/proactive_reasoning_latency/
 results/proactive_reasoning_latency/metrics/proactive_reasoning_latency_summary.csv
-results/proactive_reasoning_latency/metrics/proactive_reasoning_latency_table.tex
 ```
 
 These files are included for audit and reporting. The compact release includes

@@ -60,7 +60,6 @@ Latency summaries:
 
 ```text
 proactive_reasoning_latency/metrics/proactive_reasoning_latency_summary.csv
-proactive_reasoning_latency/metrics/proactive_reasoning_latency_table.tex
 ```
 
 ## Inputs Used By The Released Runs
