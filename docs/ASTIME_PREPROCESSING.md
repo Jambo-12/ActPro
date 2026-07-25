@@ -150,7 +150,7 @@ ablation experiments. These are not the preprocessing used by
 
 - `adaptive_crop_astime.py`: samples to 2 FPS, detects the main person,
   crops a full-height square window, then resizes to 384x384.
-- `letterbox_resize_tmm.py`: prepares TMM/PKUMMD-style resized videos.
+- `letterbox_resize_tmm.py`: prepares PKUMMD-style resized videos.
 
 Do not use those scripts when reproducing the released main ASTime result
 unless you are intentionally running the crop384 or transfer ablations.
