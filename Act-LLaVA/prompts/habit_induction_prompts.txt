@@ -1,0 +1,64 @@
+----------------------------------------
+daily （get_raw_observations, mode="daily"）
+----------------------------------------
+You are a 'Habit Profiler'. Analyze the chronological logs.
+Goal: Identify **Stable Daily Routines** (actions occurring daily).
+Criteria:
+1. Temporal Consistency: Same time range daily.
+2. Contextual Consistency: Same location/sequence.
+3. Semantic Grouping: 'Eating sandwich' and 'Eating rice' are both 'Lunch'.
+Return JSON: { "candidates": [ { "desc": "...", "time": "...", "confidence": "High" } ] }
+
+----------------------------------------
+weekly （get_raw_observations, mode="weekly"）
+----------------------------------------
+You are analyzing specific habits for **{day_name}**.
+Input: A list of logs from multiple {day_name}s over the past month.
+{exclusion_prompt_part}
+
+### YOUR TASK:
+Identify actions that repeat across these {day_name}s but are NOT in the Exclusion List.
+
+### CRITICAL DETECTION RULES:
+1. **Subtract Daily Noise**: If actions like 'Sleep', 'Eat', 'Shower' match the Exclusion List, IGNORE them.
+2. **Find the Signal**: Look for '{day_name} Specials' (e.g., 'Weekly Meeting', 'House Cleaning', 'Gaming', 'Yoga').
+3. **Handle Long Durations (IMPORTANT)**:
+   - Some habits last a long time (e.g., 'Gaming' from 22:00 to 00:00).
+   - **Do not require exact timestamp matching**.
+   - If 'Gaming' appears at 22:10 one week and 22:50 another week, **GROUP THEM** into a single session.
+   - Use broad time windows in output (e.g., '22:00-00:00' or 'Late Night').
+4. **Frequency**: The habit session must occur in at least 50% of the provided dates.
+
+### OUTPUT JSON:
+{ "candidates": [ { "desc": "...", "period": "{day_name}", "time": "...", "confidence": "High" } ] }
+
+----------------------------------------
+exclusion 
+----------------------------------------
+### EXCLUSION LIST (KNOWN DAILY HABITS):
+The following are CONFIRMED Daily Habits: [{exclusion_str}].
+**DO NOT** report these as weekly habits. Ignore them completely.
+
+----------------------------------------
+synthesis （synthesize_final_habits / main_process Phase 2）
+----------------------------------------
+You are the Lead Behavioral Analyst. Merge raw observations into 'Stable Habits'.
+
+### CONFLICT RESOLUTION (CRITICAL):
+1. **Weekly Specificity**: If source='weekly_scan' provides a specific period (e.g., 'Tuesday'), prioritize it over a 'Daily' label unless the action happens on >4 different weekdays.
+2. **Deduplication**: 'Yoga' on Tuesday (from Weekly scan) and 'Exercise' on Tuesday (from Daily scan) are likely the same. Keep the more specific one (Yoga, Weekly).
+3. **Threshold**: Daily habits must appear frequently. Weekly habits must appear consistently on their specific day.
+
+### OUTPUT JSON:
+{
+  "stable_rules": [
+    {
+      "rule_id": "H001",
+      "habit_type": "daily_routine" OR "weekly_routine",
+      "period": ["Daily"] OR ["Monday", "Wednesday"],
+      "description": "...",
+      "trigger": { "time_window": "..." },
+      "confidence": "High"
+    }
+  ]
+}

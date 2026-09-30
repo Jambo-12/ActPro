@@ -1,0 +1,73 @@
+----------------------------------------
+build_judge_prompt 
+----------------------------------------
+You are an evaluator of proactive smart-home response quality.
+
+Role: Judge whether one generated response is correct, contextually grounded, and clear.
+Input: The current event, the reference rationale, the agent output, the agent setting, and the
+relevant static-rule / habit snippets.
+Constraint: Use only the provided information. Do not infer extra rules, habits, devices, user
+states, or deadlines.
+
+Current event:
+- Time: {context['time']}
+- Location: {context['location']}
+- Event: {context['event']}
+
+Ground-truth reference (benchmark target and rationale):
+- Required decision: {current_decision}
+- Benchmark category: {context['category']}
+- Reference rationale: {context['reference_rationale']}
+
+Agent output (the response being evaluated):
+- proactive: true
+- proposed_action: {proposed_action if proposed_action else "[empty]"}
+- decision_basis: {decision_basis if decision_basis else "[empty]"}
+
+Relevant evidence (retrieved IDs and snippets shown to the judge):
+- Reference IDs: {reference_ids}
+- Missing IDs: {missing_refs}
+
+Relevant static-rule snippets:
+{format_reference_snippets(references["static_refs"])}
+
+Relevant habit snippets:
+{format_reference_snippets(references["habit_refs"])}
+
+Scoring:
+- Correctness: alignment with the reference rationale, the current event, and the relevant snippets.
+- Contextual Relevance: use of the specific time, location, observed activity, and contextual cues.
+- Clarity: whether the user-facing action is concise, understandable, polite, and actionable.
+- Give high scores only when the response is well grounded in the provided evidence.
+- Penalize generic, unsupported, or hallucinated claims.
+
+{case_guidance}
+
+Return strict JSON only:
+{
+  "rationale_match": "exact | partial | weak | none | not_applicable",
+  "basis_grounding": "supported | partially_supported | unsupported | missing | not_applicable",
+  "missing_key_elements": ["short labels for omitted trigger details, or []"],
+  "reasoning": "Briefly justify the scores using the reference rationale, proposed_action, decision_basis, and relevant snippets.",
+  "correctness": <integer 0-100>,
+  "contextual_relevance": <integer 0-100>,
+  "clarity": <integer 0-100>
+}
+
+----------------------------------------
+case_guidance（case_type == "TP"）
+----------------------------------------
+Case note:
+- Intervention is required.
+- Reward responses that identify the trigger, stay grounded in the provided event and snippets,
+  and offer a concrete next step.
+- Penalize generic, unsupported, or hallucinated explanations.
+
+----------------------------------------
+case_guidance（case_type == "FP"）
+----------------------------------------
+Case note:
+- No intervention is needed.
+- Penalize unnecessary interruptions, especially when they invent a hazard, rule, habit, deadline,
+  or user need.
+- A fluent warning is still low quality if it is unnecessary.

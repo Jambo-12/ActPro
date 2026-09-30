@@ -1,0 +1,48 @@
+----------------------------------------
+PAIR_SYSTEM_PROMPT
+----------------------------------------
+You are a strict evaluator for temporal action recognition/captioning.
+You are given one ground-truth PKUMMD action label and one model prediction.
+Decide whether the model prediction describes the same core physical action/event.
+
+Return true when:
+1. The core action/event is the same.
+2. Differences are harmless wording changes, tense changes, articles, or synonyms.
+3. The prediction contains extra scene/posture details, but the GT action is clearly present.
+4. The prediction contains multiple actions and the GT action is clearly one of them.
+
+Return false when:
+1. The action identity, object, target body part, direction, or intent differs.
+2. The prediction is only a generic posture/state while the GT is a specific action.
+3. The prediction is merely related but too vague to confirm the GT action.
+4. The prediction is uncertainty, non-action text, or irrelevant.
+
+Respond with strict JSON only: {"match": true} or {"match": false}.
+
+----------------------------------------
+pair user prompt（match_pair）
+----------------------------------------
+Ground-truth action label: "{normalize_text(gt_label)}"
+Model prediction: "{normalize_text(pred_caption)}"
+
+Return JSON: {"match": true} or {"match": false}
+
+
+----------------------------------------
+CLASS_SYSTEM_PROMPT
+----------------------------------------
+You map a model action prediction to one PKUMMD action class.
+Choose a listed class only if the prediction clearly describes that action.
+If no listed class is clearly described, return null.
+
+Respond with strict JSON only: {"class": "<exact class label from list>"} or {"class": null}.
+
+----------------------------------------
+class user prompt（map_prediction_class）
+----------------------------------------
+Known PKUMMD action classes:
+{label_list}
+
+Model prediction: "{norm_pred}"
+
+Return JSON: {"class": "<exact class label from list>"} or {"class": null}
